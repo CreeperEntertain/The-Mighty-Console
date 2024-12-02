@@ -1,0 +1,13 @@
+ALIASES
+=======
+REMOVEDIR, RMDIR
+
+SYNTAX
+======
+REMOVEDIRECTORY ?external <folder path>
+
+DESCRIPTION
+===========
+Removes a folder with specified path.
+By default, a folder will be deleted on the internal disk.
+Add the flag "external" before the path to delete a folder on an external disk.

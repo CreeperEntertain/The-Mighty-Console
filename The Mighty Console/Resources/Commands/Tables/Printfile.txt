@@ -1,0 +1,13 @@
+ALIASES
+=======
+PRNTF, PF
+
+SYNTAX
+======
+PRINTFILE ?external <file path>
+
+DESCRIPTION
+===========
+Prints out the contents of a file.
+By default, a file on the internal disk will be printed.
+You can add the flag "external" before the path to print a file from an external disk.

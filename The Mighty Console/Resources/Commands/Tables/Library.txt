@@ -1,0 +1,12 @@
+ALIASES
+=======
+LIB, DIRECTORY, DIR
+
+SYNTAX
+======
+LIBRARY
+
+DESCRIPTION
+===========
+Prints out a full list of folders and files on the same level as your working directory.
+Files, empty folders, and folders are marked separately.

@@ -1,0 +1,13 @@
+User accounts for \\DESKTOP-9806515
+
+Name                     Type                    Affiliation
+======================== ======================= ==============================
+Administrator            Administrator           System
+Temporary                DefaultAccount          LowPrivilegeGuest
+Research 237             UserAccount             Users
+Research 621             UserAccount             Users
+Research 827             UserAccount             Users
+Research 1642            UserAccount             Users
+
+Enter NET VIEW for a list of devices on your network.
+Enter NET ? for additional help.

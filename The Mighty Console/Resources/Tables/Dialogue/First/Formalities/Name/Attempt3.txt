@@ -1,0 +1,6 @@
+#AUTO
+#Red
+Hmm... you say?
+Are you certain?
+It seems... false.
+But if you enter unusual name again, I will accept.

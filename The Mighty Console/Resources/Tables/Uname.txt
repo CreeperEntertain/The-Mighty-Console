@@ -1,0 +1,11 @@
+OS Key                                     TMC-OS
+OS Name                        The Mighty Console
+OS Version                              5.23.9743
+OS Build                              HJSA62AD7AD
+
+Distribution of this product and any of its parts
+is strictly prohibited.
+
+This product and all of its parts are property of
+=========== Bionet Soviet Union (BSU) ===========
+                             All rights reserved.

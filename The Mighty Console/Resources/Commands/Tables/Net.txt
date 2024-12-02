@@ -1,0 +1,11 @@
+SYNTAX
+======
+NET user/view/[request <key> <IPv4>]
+
+DESCRIPTION
+===========
+Outputs network device specific information.
+The following flags are available:
+"user" lists this system's accounts.
+"view" lists devices connected to the local network.
+"request" sends a read request to the given IPv4 address. The key defines what item is requested. Contact your administrator for a list of keys.

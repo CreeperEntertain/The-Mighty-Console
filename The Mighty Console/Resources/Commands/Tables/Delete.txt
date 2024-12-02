@@ -1,0 +1,13 @@
+ALIASES
+=======
+DEL
+
+SYNTAX
+======
+DELETE ?external <file path>
+
+DESCRIPTION
+===========
+Deletes a file at the specified path.
+The flag "external" can be added before the path to delete a file from an external disk.
+By default, an internal file will be deleted.

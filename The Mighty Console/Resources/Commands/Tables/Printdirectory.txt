@@ -1,0 +1,11 @@
+ALIASES
+=======
+PRNTDIR, PD
+
+SYNTAX
+======
+PRINTDIRECTORY
+
+DESCRIPTION
+===========
+Prints the path of the directory you are in.

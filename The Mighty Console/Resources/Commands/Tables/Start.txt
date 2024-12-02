@@ -1,0 +1,8 @@
+SYNTAX
+======
+START ?external <folder/file path>
+
+DESCRIPTION
+===========
+Opens or starts a folder or file from the provided path.
+You can add the flag "external" before the path to access paths on an external disk.

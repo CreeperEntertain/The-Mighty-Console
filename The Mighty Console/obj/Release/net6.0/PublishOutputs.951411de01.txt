@@ -1,0 +1,6 @@
+C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\bin\Release\net6.0\publish\The Mighty Console.exe
+C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\bin\Release\net6.0\publish\Resources\Images\TMC.ico
+C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\bin\Release\net6.0\publish\The Mighty Console.dll
+C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\bin\Release\net6.0\publish\The Mighty Console.deps.json
+C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\bin\Release\net6.0\publish\The Mighty Console.runtimeconfig.json
+C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\bin\Release\net6.0\publish\The Mighty Console.pdb

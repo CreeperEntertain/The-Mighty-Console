@@ -1,0 +1,11 @@
+ALIASES
+=======
+HIST, CH
+
+SYNTAX
+======
+HISTORY
+
+DESCRIPTION
+===========
+Prints out the user's input history.

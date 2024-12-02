@@ -1,0 +1,8 @@
+SYNTAX
+======
+MAIL
+
+DESCRIPTION
+===========
+Displays incoming mail to the console.
+Not intended to send mail. Use a dedicated mailing app for that purpose.

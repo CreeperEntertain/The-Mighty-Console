@@ -1,0 +1,54 @@
+NOTES
+
+Upstairs is the lore room.
+Specifically images of staff and letters.
+
+
+
+REQUEST KEYS - IP 192.168.1.106
+
+STORY
+
+54208058
+ORIGINAL:
+I don't have much time left, so I'm keeping short.
+KGB has taken control over this lab and I'm the only survivor.
+Key is 77073155.
+For the union!
+BASE64:
+SSBkb24ndCBoYXZlIG11Y2ggdGltZSBsZWZ0LCBzbyBJJ20ga2VlcGluZyBzaG9ydC4KS0dCIGhhcyB0YWtlbiBjb250cm9sIG92ZXIgdGhpcyBsYWIgYW5kIEknbSB0aGUgb25seSBzdXJ2aXZvci4KS2V5IGlzIDc3MDczMTU1LgpGb3IgdGhlIHVuaW9uIQ==
+
+77073155
+List of keys
+
+63898051 *
+UNPW - 61347256
+
+61347256
+UN rsrch_00827
+PW V1rusKey!42
+
+88919916
+54905021
+43845517
+12729298
+53396962
+58609189
+62228572
+82468082
+57394012
+66480480
+55808468
+80679009
+99938351
+95907453
+81804139
+86224222
+
+
+JUNKDATA
+03327353
+49672916
+81667992
+52637306
+81691183

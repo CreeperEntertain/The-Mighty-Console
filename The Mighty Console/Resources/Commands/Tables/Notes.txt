@@ -1,0 +1,10 @@
+SYNTAX
+======
+NOTES view/[add <text>]/[remove <ID>]/clear
+
+Manages custom written notes.
+Add one of the following flags for options:
+VIEW: Outputs the list of notes.
+ADD <text>: Adds whatever text you type out after the flag to the list at the bottom.
+REMOVE <ID>: Removes a specific note with the numeric ID given. The ID is found before each note in the list.
+CLEAR: Empties the list of notes.

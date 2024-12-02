@@ -1,0 +1,4 @@
+#AUTO
+#Red
+Comrade, a negative age is not possible.
+Please provide a valid number.

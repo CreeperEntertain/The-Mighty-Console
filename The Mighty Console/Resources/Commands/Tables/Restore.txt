@@ -1,0 +1,11 @@
+ALIASES
+=======
+REST
+
+SYNTAX
+======
+RESTORE
+
+DESCRIPTION
+===========
+Sets the window size of the console to what it was before going into fullscreen view.

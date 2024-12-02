@@ -1,0 +1,366 @@
+afghanistan
+albania
+algeria
+andorra
+angola
+antigua and barbuda
+argentina
+australia
+austria
+bahamas
+bahrain
+bangladesh
+barbados
+belgium
+belize
+benin
+bhutan
+bolivia
+botswana
+brazil
+bulgaria
+burkina faso
+burundi
+cabo verde
+cambodia
+cameroon
+canada
+central african republic
+chad
+chile
+china
+colombia
+comoros
+congo
+costa rica
+cuba
+cyprus
+czechoslovakia
+denmark
+djibouti
+dominica
+dominican republic
+east germany
+ecuador
+egypt
+el salvador
+equatorial guinea
+ethiopia
+fiji
+finland
+france
+gabon
+gambia
+ghana
+greece
+grenada
+guatemala
+guinea
+guinea-bissau
+guyana
+haiti
+honduras
+hungary
+iceland
+india
+indonesia
+iran
+iraq
+ireland
+israel
+italy
+ivory coast
+jamaica
+japan
+jordan
+kenya
+kiribati
+kuwait
+laos
+lebanon
+lesotho
+liberia
+libya
+liechtenstein
+luxembourg
+madagascar
+malawi
+malaysia
+maldives
+mali
+malta
+mauritania
+mauritius
+mexico
+monaco
+mongolia
+morocco
+mozambique
+myanmar
+namibia
+nauru
+nepal
+netherlands
+new zealand
+nicaragua
+niger
+nigeria
+north korea
+norway
+oman
+pakistan
+palau
+panama
+papua new guinea
+paraguay
+peru
+philippines
+poland
+portugal
+qatar
+romania
+rwanda
+russia
+saint kitts and nevis
+saint lucia
+saint vincent and the grenadines
+samoa
+san marino
+são tomé and príncipe
+saudi arabia
+senegal
+seychelles
+sierra leone
+singapore
+somalia
+south africa
+south korea
+spain
+sri lanka
+sudan
+suriname
+swaziland
+sweden
+switzerland
+syria
+tanzania
+thailand
+togo
+tonga
+trinidad and tobago
+tunisia
+turkey
+uganda
+ukraine
+united arab emirates
+united kingdom
+united states
+uruguay
+ussr
+vanuatu
+vatican city
+venezuela
+vietnam
+yemen
+yugoslavia
+zaire
+zambia
+zimbabwe
+germany
+west germany
+ivory coast
+cape verde
+burma
+czech republic
+slovakia
+korea
+north vietnam
+south vietnam
+uae
+uk
+usa
+soviet union
+vatican
+iran
+dprk
+south yemen
+north yemen
+afghan republic
+islamic republic of afghanistan
+people's republic of albania
+people's democratic republic of algeria
+principality of andorra
+people's republic of angola
+antigua
+barbuda
+argentine republic
+commonwealth of australia
+republic of austria
+commonwealth of the bahamas
+kingdom of bahrain
+people's republic of bangladesh
+island of barbados
+kingdom of belgium
+british honduras
+people's republic of benin
+kingdom of bhutan
+plurinational state of bolivia
+republic of botswana
+federative republic of brazil
+people's republic of bulgaria
+upper volta
+republic of burundi
+republic of cape verde
+khmer republic
+kampuchea
+republic of cameroon
+dominican republic
+republic of costa rica
+republic of cuba
+republic of cyprus
+cssr
+czech and slovak federal republic
+kingdom of denmark
+republic of djibouti
+commonwealth of dominica
+german democratic republic
+gdr
+republic of ecuador
+arab republic of egypt
+republic of el salvador
+republic of equatorial guinea
+empire of ethiopia
+republic of fiji
+republic of finland
+french republic
+gabonese republic
+the gambia
+republic of ghana
+hellenic republic
+grenada island
+republic of guatemala
+republic of guinea
+republic of guinea-bissau
+cooperative republic of guyana
+republic of haiti
+republic of honduras
+people's republic of hungary
+republic of iceland
+republic of india
+republic of indonesia
+persia
+islamic republic of iran
+republic of iraq
+eire
+republic of ireland
+state of israel
+italian republic
+côte d’ivoire
+island of jamaica
+state of japan
+hashemite kingdom of jordan
+republic of kenya
+gilbert islands
+state of kuwait
+lao people's democratic republic
+lpdr
+lebanese republic
+kingdom of lesotho
+republic of liberia
+libyan arab republic
+principality of liechtenstein
+grand duchy of luxembourg
+malagasy republic
+republic of malawi
+federation of malaysia
+republic of maldives
+republic of mali
+republic of malta
+islamic republic of mauritania
+republic of mauritius
+united mexican states
+principality of monaco
+mongolian people's republic
+kingdom of morocco
+people's republic of mozambique
+burma
+south-west africa
+republic of nauru
+kingdom of nepal
+kingdom of the netherlands
+aotearoa
+republic of nicaragua
+republic of niger
+federal republic of nigeria
+dprk
+democratic people's republic of korea
+kingdom of norway
+sultanate of oman
+islamic republic of pakistan
+belau
+republic of panama
+png
+republic of paraguay
+republic of peru
+republic of the philippines
+people's republic of poland
+portuguese republic
+state of qatar
+socialist republic of romania
+republic of rwanda
+russian federation
+rsfsr
+saint kitts
+nevis
+st. lucia
+st. vincent
+grenadines
+western samoa
+republic of san marino
+sao tome
+principe
+kingdom of saudi arabia
+republic of senegal
+republic of seychelles
+republic of sierra leone
+republic of singapore
+somali democratic republic
+republic of south africa
+rok
+republic of korea
+kingdom of spain
+ceylon
+republic of sudan
+republic of suriname
+eswatini
+kingdom of swaziland
+kingdom of sweden
+swiss confederation
+syrian arab republic
+united republic of tanzania
+kingdom of thailand
+siam
+togolese republic
+kingdom of tonga
+trinidad
+tobago
+republic of tunisia
+republic of turkey
+republic of uganda
+ukrainian ssr
+uae
+great britain
+england
+united mexican states
+soviet union
+new hebrides
+holy see
+bolivarian republic of venezuela
+socialist republic of vietnam
+south yemen
+north yemen
+socialist federal republic of yugoslavia
+democratic republic of the congo
+drc
+republic of zambia
+rhodesia

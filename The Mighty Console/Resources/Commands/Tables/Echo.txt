@@ -1,0 +1,12 @@
+SYNTAX
+======
+ECHO <text> >|>> ?external <file path>
+
+DESCRIPTION
+===========
+Prints out text to the screen or a file.
+If nothing is specified after the user's text input, it will print to the screen.
+If the user types out > or >>, it will print to a file with > being overwrite and >> adding below.
+By default, text will be printed to the internal disk, but you can add "external" before the path to print to an external disk.
+The user can add ^ to make the following character literal as opposed to interpreted.
+For example, ^> will be printed as > and ^^ as ^.

@@ -1,0 +1,11 @@
+ALIASES
+=======
+SHTD
+
+SYNTAX
+======
+SHUTDOWN
+
+DESCRIPTION
+===========
+Shuts down the system.

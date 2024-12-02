@@ -1,0 +1,17 @@
+You push your face up to the crevice.
+With some struggle, you make out what the text says.
+
+#Yellow
+in console type NET REQUEST
+check online server with NET VIEW
+add server IP of online server after
+request key is 54208058
+message it gives you is base 64
+decode
+
+for the union
+#White
+
+You move your head away from the crevice.
+In the console, it says.
+And there is only one you know how to use.

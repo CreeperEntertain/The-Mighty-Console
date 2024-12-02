@@ -1,0 +1,11 @@
+ALIASES
+=======
+DISKU, DU
+
+SYNTAX
+======
+DISKUSAGE
+
+DESCRIPTION
+===========
+Outputs the total, used, and available disk in kilobytes.

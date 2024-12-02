@@ -1,0 +1,27 @@
+COMMAND         ALIASES
+=====================================================
+ALWAYSONTOP     AOT
+ALIASES         ALS
+CLEARHISTORY    CLRHIST, CLH
+CLEARSCREEN     CLS
+DATE            DT
+DATESET         DTS
+DELETE          DEL
+DISKUSAGE       DISKU, DU
+FULLSCREEN      FULL
+HELP            ?
+HISTORY         HIST, CH
+HOSTNAME        HSTN
+MAKEDIRECTORY   MAKEDIR, MKDIR
+MINIMIZE        MIN
+PRINTFILE       PRNTF, PF
+REMOVEDIRECTORY REMOVEDIR, RMDIR
+RESTORE         REST
+SHUTDOWN        SHTD
+TASKLIST        TL
+TIME            TM
+TIMECURRENT     TIMECRR, TMCRR, TMC
+WHOAMI          WMI
+VERSION         VER
+=====================================================
+Command aliases are not case sensitive.

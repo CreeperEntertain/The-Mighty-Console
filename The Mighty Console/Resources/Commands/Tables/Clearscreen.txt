@@ -1,0 +1,11 @@
+ALIASES
+=======
+CLS
+
+SYNTAX
+======
+CLEARSCREEN
+
+DESCRIPTION
+===========
+Clears text on the command window

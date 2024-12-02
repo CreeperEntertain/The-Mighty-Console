@@ -1,0 +1,3 @@
+C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console.pdb
+C:\Users\TimGe\Documents\The Mighty Console\Resources\Images\TMC.ico
+C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console.exe

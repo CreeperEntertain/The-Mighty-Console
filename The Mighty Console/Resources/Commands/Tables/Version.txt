@@ -1,0 +1,11 @@
+ALIASES
+=======
+VER
+
+SYNTAX
+======
+VERSION
+
+DESCRIPTION
+===========
+Prints out the version of the operating system.

@@ -1,0 +1,11 @@
+ALIASES
+=======
+FULL
+
+SYNTAX
+======
+FULLSCREEN
+
+DESCRIPTION
+===========
+Sets the current console window to fullscreen view.

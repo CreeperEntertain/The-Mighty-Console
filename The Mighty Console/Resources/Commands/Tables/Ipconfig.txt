@@ -1,0 +1,11 @@
+ALIASES
+=======
+IPC
+
+SYNTAX
+======
+IPCONFIG
+
+DESCRIPTION
+===========
+Outputs the network configuration of the system.

@@ -1,0 +1,20 @@
+#AUTO
+#Red
+My plan?
+It's simple, comrade - find the truth.
+If Bionet's research led to this disaster, we must understand what went wrong and how we can fix it.
+The world may be in ruins, but there is still knowledge, still power to be found in the wreckage.
+We will search for the answers, piece by piece, and rebuild from what remains.
+
+I will guide you through this, but you must make the decisions.
+The path is not clear, and every choice will take us closer or farther from the truth.
+You will have to decide, comrade, what we uncover and how we move forward.
+
+#White
+#Confirm
+There is a brief pause as if TMC is waiting for confirmation.
+
+#CLEAR
+It begins now.
+#CONFIRM
+Choose carefully.

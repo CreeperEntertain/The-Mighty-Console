@@ -1,0 +1,4 @@
+#AUTO
+#Red
+Comrade, you have a height.
+Please provide it.

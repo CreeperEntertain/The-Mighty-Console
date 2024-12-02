@@ -1,0 +1,11 @@
+ALIASES
+=======
+TM
+
+SYNTAX
+======
+TIME
+
+DESCRIPTION
+===========
+Prints out the current system time.

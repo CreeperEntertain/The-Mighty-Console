@@ -1,0 +1,13 @@
+I- how?
+That shouldn't be possible.
+Anyway, since you asked...
+
+SYNTAX
+======
+LEAVE
+
+DESCRIPTION
+===========
+You leave the PC.
+This doesn't even exist as a command.
+How did you get here? Genuinely.

@@ -1,0 +1,11 @@
+ALIASES
+=======
+HSTN
+
+SYNTAX
+======
+HOSTNAME
+
+DESCRIPTION
+===========
+Prints out the system's hostname.

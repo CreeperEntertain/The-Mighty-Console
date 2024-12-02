@@ -1,0 +1,23 @@
+You decide to take a closer look at the room this time.
+Just like any other space, the floor is covered in debris.
+You observe a rat run out into the entrance hall and leave the facility.
+It must have stayed here due to the cold.
+Come to think of it, you realize that it's almost room temperature.
+Maybe, the new outpost could be set up here?
+You snap out of it and look around again.
+
+The first thing you look at is the humming server.
+Maybe, there is something there?
+The next thing you look at is the hallway you came from.
+Still looks as crappy as before.
+Lastly, you notice something new you did not before.
+Most of the doors are locked off shut. They do not make the impression of ever opening.
+However, there is a sign on a wall in the distance.
+You take a look at the sign.
+'UP: ############' The rest was unredable. Damage covered the text.
+'RIGHT: Storage'
+'DOWN: Basement'
+
+Stepping back from the sign, you notice that the doors to all three rooms are unlocked.
+Not just unlocked, they had forcefully been broken open.
+Either way, you step back and think.

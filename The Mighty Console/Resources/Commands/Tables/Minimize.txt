@@ -1,0 +1,11 @@
+ALIASES
+=======
+MIN
+
+SYNTAX
+======
+MINIMIZE
+
+DESCRIPTION
+===========
+Minimizes the current console window.

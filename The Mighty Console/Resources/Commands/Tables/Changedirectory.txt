@@ -1,0 +1,11 @@
+ALIASES
+=======
+CHGDIR, CD
+
+SYNTAX
+======
+CHANGEDIRECTORY <folder path>
+
+DESCRIPTION
+===========
+Changes the directory from which you run commands.

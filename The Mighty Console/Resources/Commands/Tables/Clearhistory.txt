@@ -1,0 +1,11 @@
+ALIASES
+=======
+CLRHIST, CLH
+
+SYNTAX
+======
+CLEARHISTORY
+
+DESCRIPTION
+===========
+Clears your history of user inputs.

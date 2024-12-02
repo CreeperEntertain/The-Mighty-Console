@@ -1,0 +1,9 @@
+SYNTAX
+======
+LOGIN
+
+DESCRIPTION
+===========
+Used to log into user accounts.
+Upon entering, you will be tasked to provide an account name and password.
+In case you cannot log into an account, please consult your system administrator.

@@ -1,0 +1,8 @@
+SYNTAX
+======
+UNAME ?detailed
+
+DESCRIPTION
+===========
+Prints out the name of the operating system.
+The flag "detailed" can be added to print out additional info.

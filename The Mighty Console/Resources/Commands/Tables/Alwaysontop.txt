@@ -1,0 +1,11 @@
+ALIASES
+=======
+AOT
+
+SYNTAX
+======
+ALWAYSONTOP
+
+DESCRIPTION
+===========
+Toggles whether the console window can be obstructed by other windows.

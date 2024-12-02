@@ -1,0 +1,5 @@
+#AUTO
+#Red
+Comrade, an age this high exceeds reasonable biological limits.
+I cannot accept this input.
+Please provide a more accurate value.

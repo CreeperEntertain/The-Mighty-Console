@@ -1,0 +1,6 @@
+#AUTO
+#Red
+Comrade, please provide your height in meters.
+Dot for decimal.
+This information is necessary for accurate records.
+Do not worry, it is needed for the data.

@@ -1,0 +1,7 @@
+SYNTAX
+======
+FREE
+
+DESCRIPTION
+===========
+Outputs the total, used, and available memory in kilobytes.

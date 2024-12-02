@@ -1,0 +1,218 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>The_Mighty_Console</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Resources\Images\TMC.ico</ApplicationIcon>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <PublishDir>$(OutputPath)</PublishDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ingamedir\main\bin.dd" />
+    <None Remove="ingamedir\main\log.dd" />
+    <None Remove="ingamedir\main\OS.dd" />
+    <None Remove="ingamedir\main\ProgramFiles.dd" />
+    <None Remove="ingamedir\main\Programs.dd" />
+    <None Remove="ingamedir\main\tmp.dd" />
+    <None Remove="IngameDir\main\usrs\rsrch_00237.d" />
+    <None Remove="IngameDir\main\usrs\rsrch_00621.d" />
+    <None Remove="ingamedir\main\usrs\rsrch_00827\Contacts.d" />
+    <None Remove="ingamedir\main\usrs\rsrch_00827\desktop\tmcprojectmain\lib.dd" />
+    <None Remove="ingamedir\main\usrs\rsrch_00827\desktop\tmcprojectmain\src.dd" />
+    <None Remove="ingamedir\main\usrs\rsrch_00827\Downloads.dd" />
+    <None Remove="ingamedir\main\usrs\rsrch_00827\Favourites.dd" />
+    <None Remove="ingamedir\main\usrs\rsrch_00827\Links.dd" />
+    <None Remove="ingamedir\main\usrs\rsrch_00827\Music.d" />
+    <None Remove="ingamedir\main\usrs\rsrch_00827\Videos.d" />
+    <None Remove="IngameDir\main\usrs\rsrch_01642.d" />
+    <None Remove="IngameDir\main\usrs\tmp.d" />
+    <None Remove="Resources\AliasTable.txt" />
+    <None Remove="resources\commands\tables\Aliases.txt" />
+    <None Remove="resources\commands\tables\Changedirectory.txt" />
+    <None Remove="resources\commands\tables\Clearhistory.txt" />
+    <None Remove="resources\commands\tables\Clearscreen.txt" />
+    <None Remove="resources\commands\tables\Date.txt" />
+    <None Remove="resources\commands\tables\Dateset.txt" />
+    <None Remove="resources\commands\tables\Delete.txt" />
+    <None Remove="resources\commands\tables\Diskusage.txt" />
+    <None Remove="resources\commands\tables\Echo.txt" />
+    <None Remove="resources\commands\tables\Free.txt" />
+    <None Remove="resources\commands\tables\Fullscreen.txt" />
+    <None Remove="resources\commands\tables\Help.txt" />
+    <None Remove="resources\commands\tables\History.txt" />
+    <None Remove="resources\commands\tables\Hostname.txt" />
+    <None Remove="resources\commands\tables\Ipconfig.txt" />
+    <None Remove="resources\commands\tables\Leave.txt" />
+    <None Remove="resources\commands\tables\Library.txt" />
+    <None Remove="resources\commands\tables\Login.txt" />
+    <None Remove="resources\commands\tables\Makedirectory.txt" />
+    <None Remove="resources\commands\tables\Minimize.txt" />
+    <None Remove="resources\commands\tables\Net.txt" />
+    <None Remove="resources\commands\tables\Notes.txt" />
+    <None Remove="resources\commands\tables\Printdirectory.txt" />
+    <None Remove="resources\commands\tables\Printfile.txt" />
+    <None Remove="resources\commands\tables\Removedirectory.txt" />
+    <None Remove="resources\commands\tables\Restore.txt" />
+    <None Remove="resources\commands\tables\Shutdown.txt" />
+    <None Remove="resources\commands\tables\Start.txt" />
+    <None Remove="resources\commands\tables\Tasklist.txt" />
+    <None Remove="resources\commands\tables\Time.txt" />
+    <None Remove="resources\commands\tables\Timecurrent.txt" />
+    <None Remove="resources\commands\tables\Uname.txt" />
+    <None Remove="resources\commands\tables\Version.txt" />
+    <None Remove="resources\commands\tables\Whoami.txt" />
+    <None Remove="Resources\GameData\Lists\Source\AiNames.txt" />
+    <None Remove="resources\gamedata\lists\source\CommonEyeColors.txt" />
+    <None Remove="Resources\GameData\Lists\Source\CommonNames.txt" />
+    <None Remove="resources\gamedata\lists\source\MediumEyeColors.txt" />
+    <None Remove="resources\gamedata\lists\source\Nations.txt" />
+    <None Remove="resources\gamedata\lists\source\RareEyeColors.txt" />
+    <None Remove="Resources\HelpTable.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\age\Baby.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\age\Empty.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\age\Invalid.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\age\Negative.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\age\Old.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\age\Skeleton.txt" />
+    <None Remove="Resources\Tables\Dialogue\First\Formalities\EyeColor\CommonRequest.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\eyecolor\MediumRequest.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\eyecolor\RareRequest.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\eyecolor\UnusualResponse.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\height\Empty.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\height\Giant.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\height\Invalid.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\height\Negative.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\height\Request.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\height\Tall.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\height\Tiny.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\name\AiName.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\name\Attempt1.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\name\Attempt2.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\name\Attempt3.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\name\Common.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\name\Empty.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\name\FinalAttempt.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\nationality\Attempt1.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\nationality\Attempt2.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\nationality\Attempt3.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\nationality\Common.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\nationality\Empty.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\nationality\FinalAttempt.txt" />
+    <None Remove="resources\tables\dialogue\first\formalities\nationality\Request.txt" />
+    <None Remove="resources\tables\dialogue\first\Greetings.txt" />
+    <None Remove="resources\tables\dialogue\intermissions\EndOfDemo.txt" />
+    <None Remove="resources\tables\dialogue\intermissions\IntroCompleted.txt" />
+    <None Remove="resources\tables\dialogue\Prelog.txt" />
+    <None Remove="resources\tables\dialogue\rooms\basement\Intro.txt" />
+    <None Remove="resources\tables\dialogue\rooms\basement\IntroAlt.txt" />
+    <None Remove="resources\tables\dialogue\rooms\basement\Investigate.txt" />
+    <None Remove="resources\tables\dialogue\rooms\basement\Return.txt" />
+    <None Remove="resources\tables\dialogue\rooms\entrancehall\Intro.txt" />
+    <None Remove="resources\tables\dialogue\rooms\entrancehall\IntroAlt.txt" />
+    <None Remove="resources\tables\dialogue\rooms\entrancehall\Return.txt" />
+    <None Remove="resources\tables\dialogue\rooms\mainroom\Intro.txt" />
+    <None Remove="resources\tables\dialogue\rooms\mainroom\IntroAlt.txt" />
+    <None Remove="resources\tables\dialogue\rooms\mainroom\Server.txt" />
+    <None Remove="resources\tables\dialogue\rooms\outside\Cliff.txt" />
+    <None Remove="resources\tables\dialogue\rooms\outside\Intro.txt" />
+    <None Remove="resources\tables\dialogue\rooms\outside\IntroAlt.txt" />
+    <None Remove="resources\tables\dialogue\rooms\outside\Return.txt" />
+    <None Remove="resources\tables\dialogue\rooms\storage\HelpNote.txt" />
+    <None Remove="resources\tables\dialogue\rooms\storage\Intro.txt" />
+    <None Remove="resources\tables\dialogue\rooms\storage\IntroAlt.txt" />
+    <None Remove="resources\tables\dialogue\rooms\storage\Investigate.txt" />
+    <None Remove="resources\tables\dialogue\rooms\storage\InvestigateAlt.txt" />
+    <None Remove="resources\tables\dialogue\rooms\storage\Return.txt" />
+    <None Remove="resources\tables\dialogue\rooms\topfloor\CollectFormula.txt" />
+    <None Remove="resources\tables\dialogue\rooms\topfloor\Intro.txt" />
+    <None Remove="resources\tables\dialogue\rooms\topfloor\introAlt.txt" />
+    <None Remove="resources\tables\dialogue\rooms\topfloor\Investigate.txt" />
+    <None Remove="resources\tables\dialogue\rooms\topfloor\Management.txt" />
+    <None Remove="resources\tables\dialogue\rooms\topfloor\ManagementAlt.txt" />
+    <None Remove="resources\tables\dialogue\rooms\topfloor\Return.txt" />
+    <None Remove="resources\tables\dialogue\rooms\upstairs\Intro.txt" />
+    <None Remove="resources\tables\dialogue\rooms\upstairs\IntroAlt.txt" />
+    <None Remove="resources\tables\dialogue\rooms\upstairs\Investigate.txt" />
+    <None Remove="resources\tables\dialogue\rooms\upstairs\LiftTile.txt" />
+    <None Remove="resources\tables\dialogue\rooms\upstairs\Return.txt" />
+    <None Remove="resources\tables\dialogue\Shutdown.txt" />
+    <None Remove="resources\tables\Ipconfig.txt" />
+    <None Remove="resources\tables\Mail.txt" />
+    <None Remove="resources\tables\net\request\03327353.txt" />
+    <None Remove="resources\tables\net\request\12729298.txt" />
+    <None Remove="resources\tables\net\request\43845517.txt" />
+    <None Remove="resources\tables\net\request\49672916.txt" />
+    <None Remove="resources\tables\net\request\52637306.txt" />
+    <None Remove="resources\tables\net\request\53396962.txt" />
+    <None Remove="resources\tables\net\request\54208058.txt" />
+    <None Remove="resources\tables\net\request\54905021.txt" />
+    <None Remove="resources\tables\net\request\55808468.txt" />
+    <None Remove="resources\tables\net\request\57394012.txt" />
+    <None Remove="resources\tables\net\request\58609189.txt" />
+    <None Remove="Resources\Tables\Net\Request\61347256.txt" />
+    <None Remove="resources\tables\net\request\62228572.txt" />
+    <None Remove="resources\tables\net\request\63898051.txt" />
+    <None Remove="resources\tables\net\request\66480480.txt" />
+    <None Remove="resources\tables\net\request\77073155.txt" />
+    <None Remove="resources\tables\net\request\80679009.txt" />
+    <None Remove="resources\tables\net\request\81667992.txt" />
+    <None Remove="resources\tables\net\request\81691183.txt" />
+    <None Remove="resources\tables\net\request\81804139.txt" />
+    <None Remove="resources\tables\net\request\82468082.txt" />
+    <None Remove="resources\tables\net\request\86224222.txt" />
+    <None Remove="resources\tables\net\request\88919916.txt" />
+    <None Remove="resources\tables\net\request\95907453.txt" />
+    <None Remove="resources\tables\net\request\99938351.txt" />
+    <None Remove="resources\tables\net\User.txt" />
+    <None Remove="resources\tables\net\View.txt" />
+    <None Remove="resources\tables\Uname.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="IngameDir\**\" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<EmbeddedResource Include="Resources\**\*.txt" />
+	<EmbeddedResource Include="IngameDir\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="IngameDir\main\usrs\rsrch_00827\Documents\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Resources\Tables\Dialogue\First\Formalities\Name\" />
+    <Folder Include="Resources\Tables\Dialogue\First\Formalities\Height\" />
+    <Folder Include="Resources\Tables\Dialogue\First\Formalities\Nationality\" />
+    <Folder Include="Resources\Tables\Dialogue\First\FormFlicker\Third\1\" />
+    <Folder Include="Resources\Tables\Dialogue\First\FormFlicker\Third\2\" />
+    <Folder Include="Resources\Tables\Dialogue\First\FormFlicker\Third\3\" />
+    <Folder Include="Resources\Tables\Dialogue\Rooms\Basement\" />
+    <Folder Include="Resources\Tables\Dialogue\Rooms\EntranceHall\" />
+    <Folder Include="Resources\Tables\Dialogue\Rooms\MainRoom\" />
+    <Folder Include="Resources\Tables\Dialogue\Rooms\Storage\" />
+    <Folder Include="Resources\Tables\Dialogue\Rooms\Upstairs\" />
+    <Folder Include="Resources\Tables\Dialogue\Rooms\TopFloor\" />
+    <Folder Include="Resources\Tables\Dialogue\Rooms\Outside\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Images\TMC.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <Target Name="GenerateSHA256Hash" AfterTargets="Publish">
+    <Exec Command="certutil -hashfile &quot;$(PublishDir)The Mighty Console.exe&quot; SHA256 &gt; $(PublishDir)executableHash.txt" />
+    <Exec Command="move /Y &quot;$(PublishDir)executableHash.txt&quot; &quot;$(PublishDir)TMC Launcher\TMC Launcher\executableHash.txt&quot;" />
+    <Exec Command="del /Q &quot;$(PublishDir)The Mighty Console.pdb&quot;" />
+  </Target>
+</Project>

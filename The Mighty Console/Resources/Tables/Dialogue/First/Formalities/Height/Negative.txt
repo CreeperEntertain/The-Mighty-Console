@@ -1,0 +1,5 @@
+#AUTO
+#Red
+Comrade, a negative height?
+Are you perhaps upside-down, buried in the ground?
+Please provide a proper value so we can proceed.

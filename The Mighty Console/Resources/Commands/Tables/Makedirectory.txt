@@ -1,0 +1,13 @@
+ALIASES
+=======
+MAKEDIR, MKDIR
+
+SYNTAX
+======
+MAKEDIRECTORY ?external <folder path>
+
+DESCRIPTION
+===========
+Creates a folder with the specified path.
+By default, a folder will be created on the internal disk.
+Add the flag "external" before the path to write to an external disk.

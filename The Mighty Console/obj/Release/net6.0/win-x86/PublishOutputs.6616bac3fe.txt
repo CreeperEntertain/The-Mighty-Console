@@ -1,0 +1,3 @@
+\\schulserver\115051\Documents\The Mighty Console.pdb
+\\schulserver\115051\Documents\Resources\Images\TMC.ico
+\\schulserver\115051\Documents\The Mighty Console.exe

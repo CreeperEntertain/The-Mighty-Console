@@ -1,0 +1,14 @@
+Network discovery device list
+
+Device Name             Type         IPv4 Address      Status
+======================= ============ ================= ===========
+ResearchServer01        Server       192.168.1.101     Offline
+ResearchServer02        Server       192.168.1.102     Offline
+BackupServer            Server       192.168.1.105     Offline
+DatabaseServer          Server       192.168.1.106     Online
+MediaServer             Server       192.168.1.110     Offline
+
+Enter IPCONFIG for a list of available network adapters.
+Enter NET USER for a list of system accounts.
+Enter NET REQUEST xxx.xxx.xxx.xxx xxxxxxxx to make a request.
+Enter NET ? for additional help.

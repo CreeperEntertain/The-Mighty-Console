@@ -1,0 +1,11 @@
+ALIASES
+=======
+DT
+
+SYNTAX
+======
+Date
+
+DESCRIPTION
+===========
+Prints out the date of the system

@@ -1,0 +1,11 @@
+ALIASES
+=======
+ALS
+
+SYNTAX
+======
+ALIASES
+
+DESCRIPTION
+===========
+Prints out the list of available command aliases.

@@ -1,0 +1,7 @@
+#Green
+#AUTO
+End of demo.
+If you liked what you played, know that this is unfinished.
+
+#CONFIRM
+Press Enter to close the program...

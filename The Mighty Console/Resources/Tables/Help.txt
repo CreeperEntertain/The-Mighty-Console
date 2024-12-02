@@ -1,0 +1,35 @@
+ALIASES         Shows a list of available command aliases
+CHANGEDIRECTORY Changes your working directory
+CLEARHISTORY    Clears all commands cached in the history
+CLEARSCREEN     Clears all text on the screen
+DATE            Outputs the current system date
+DATESET         Sets a new system date
+DELETE          Deletes a specified file
+DISKUSAGE       Outputs information about disk usage
+ECHO            Prints out text to the console or a file
+FREE            Outputs memory information
+FULLSCREEN      Puts the console window into fullscreen
+HELP            This window
+HISTORY         Shows the list of executed commands
+HOSTNAME        Outputs the current machine's name
+LIBRARY         Outputs a list of folders and files
+LOGIN           Used to log into a user account
+MAIL            Used to write or check mail
+MAKEDIRECTORY   Creates a directory of the specified path
+MINIMIZE        Minimizes the console window.
+NET             Does networking between accounts
+NOTES           Manages the list of custom user notes
+PRINTDIRECTORY  Outputs the name of the working directory
+PRINTFILE       Outputs the contents of a file
+REMOVEDIRECTORY Deletes a specified directory
+RESTORE         Exits fullscreen for the console window
+SHUTDOWN        Shuts down the system
+TASKLIST        Outputs a list of all running programs
+TIME            Outputs the system time
+TIMECURRENT     Outputs the uptime in seconds
+UNAME           Outputs the OS name
+VERSION         Outputs the version number
+WHOAMI          Outputs the current user's name
+=====================================================
+Commands are not case sensitive.
+Add '?' directly after a command for further help.

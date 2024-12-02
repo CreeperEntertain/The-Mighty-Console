@@ -1,0 +1,11 @@
+ALIASES
+=======
+TIMECRR, TMCRR, TMC
+
+SYNTAX
+======
+TIMECURRENT
+
+DESCRIPTION
+===========
+Prints out the system's uptime in seconds.

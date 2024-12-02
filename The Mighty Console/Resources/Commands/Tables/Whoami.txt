@@ -1,0 +1,11 @@
+ALIASES
+=======
+WMI
+
+SYNTAX
+======
+WHOAMI
+
+DESCRIPTION
+===========
+Prints out the current user's name.

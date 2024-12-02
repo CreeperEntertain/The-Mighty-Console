@@ -1,0 +1,12 @@
+ALIASES
+=======
+DTS
+
+SYNTAX
+======
+DATESET <year>,<month>,<day>
+
+DESCRIPTION
+===========
+Sets the system date to the user input.
+Has to be set using numbers only.

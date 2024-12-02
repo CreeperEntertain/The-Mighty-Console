@@ -1,0 +1,3 @@
+SHA256 hash of bin\Release\net6.0\publish\The Mighty Console.exe:
+7bff71100636ebb81aae89a7ec7fa70adc9a5283592662204da08ccb2516a4a3
+CertUtil: -hashfile command completed successfully.

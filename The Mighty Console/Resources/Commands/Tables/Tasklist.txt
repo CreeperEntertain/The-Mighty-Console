@@ -1,0 +1,13 @@
+ALIASES
+=======
+TL
+
+SYNTAX
+======
+TASKLIST ?detailed
+
+DESCRIPTION
+===========
+Prints out the list of running system and regular processes.
+By default, only the process names will be printed.
+The flag "detailed" can be added after the command for additional info.
