@@ -30,7 +30,7 @@ namespace The_Mighty_Console.Resources.FrameworkMethods.IO
         }
         private void Shutdown()
         {
-            // TODO: Implement trust decrease dialogue.
+            Framework.PrintStoryDialogue("Resources.Dialogue.Intermissions.LostTrust.txt");
             shutdown.ShutdownIntermission();
         }
         private void Announce()

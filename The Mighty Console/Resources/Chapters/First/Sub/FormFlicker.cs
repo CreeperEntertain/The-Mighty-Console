@@ -77,7 +77,8 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub
 
         private void Continue()
         {
-            // TODO: Implement continuation of First chapter.
+            PrintFormFlickerDialogue("Third.3.Second.txt");
+
         }
         private void Shutdown()
         {
