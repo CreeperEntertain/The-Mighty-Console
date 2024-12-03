@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("The Mighty Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74ec2647fad19cc0ec2223e9177983d51600c60e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a767e2f861512aa5fe2aa61313247133150e2c6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("The Mighty Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("The Mighty Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

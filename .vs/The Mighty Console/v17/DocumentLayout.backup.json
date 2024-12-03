@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|c:\\users\\timge\\documents\\the mighty console\\the mighty console\\resources\\chapters\\first\\sub\\formflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|solutionrelative:the mighty console\\resources\\chapters\\first\\sub\\formflicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|c:\\users\\timge\\documents\\the mighty console\\the mighty console\\resources\\chapters\\second\\second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|solutionrelative:the mighty console\\resources\\chapters\\second\\second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +22,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Main.cs",
               "RelativeDocumentMoniker": "The Mighty Console\\Main.cs",
@@ -35,8 +31,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T19:51:47.573Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -45,25 +40,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormFlicker.cs",
-              "DocumentMoniker": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\First\\Sub\\FormFlicker.cs",
-              "RelativeDocumentMoniker": "The Mighty Console\\Resources\\Chapters\\First\\Sub\\FormFlicker.cs",
-              "ToolTip": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\First\\Sub\\FormFlicker.cs",
-              "RelativeToolTip": "The Mighty Console\\Resources\\Chapters\\First\\Sub\\FormFlicker.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwEgAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T20:31:33.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Second.cs",
               "DocumentMoniker": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
               "RelativeDocumentMoniker": "The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
               "ToolTip": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
               "RelativeToolTip": "The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T20:30:47.075Z",
               "EditorCaption": ""
