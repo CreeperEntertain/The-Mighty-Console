@@ -103,6 +103,7 @@
     <None Remove="resources\tables\dialogue\first\formalities\nationality\Empty.txt" />
     <None Remove="resources\tables\dialogue\first\formalities\nationality\FinalAttempt.txt" />
     <None Remove="resources\tables\dialogue\first\formalities\nationality\Request.txt" />
+    <None Remove="resources\tables\dialogue\first\formflicker\first\Second.txt" />
     <None Remove="resources\tables\dialogue\first\Greetings.txt" />
     <None Remove="resources\tables\dialogue\intermissions\EndOfDemo.txt" />
     <None Remove="resources\tables\dialogue\intermissions\IntroCompleted.txt" />

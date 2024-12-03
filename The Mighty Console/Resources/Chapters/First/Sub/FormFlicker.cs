@@ -25,8 +25,9 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub
             Framework.DelayedPrint("WHAT THE FUCK?");
 
             Choice(new List<string> { "What was that?" });
+            PrintFormFlickerDialogue("First.First.txt");
             // TODO: Implement AI countdown from 10 to 0 and claim that it could be dead.
-            PrintFormFlickerDialogue("First.txt");
+            PrintFormFlickerDialogue("First.Second.txt");
 
             Choice(new List<string> { "The complicated or the simple option?" });
             PrintFormFlickerDialogue("Second.txt");
