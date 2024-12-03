@@ -72,13 +72,17 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub
                 "I apolgize.",
                 "Cry about it." });
             if (chosen == 1) Continue();
-            else if (chosen == 2) Shutdown();
+            else Shutdown();
         }
 
         private void Continue()
         {
             PrintFormFlickerDialogue("Third.3.Second.txt");
-
+            int chosen = 1 + Choice(new List<string> {
+                "*TELL TMC*",
+                "Not feeling like it." });
+            if (chosen == 2) Shutdown();
+            else PrintFormFlickerDialogue("Third.3.Third.txt");
         }
         private void Shutdown()
         {

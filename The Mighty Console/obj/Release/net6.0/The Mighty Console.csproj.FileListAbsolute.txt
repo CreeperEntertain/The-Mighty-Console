@@ -42,3 +42,4 @@ C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\obj\Release\net6.
 C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\obj\Release\net6.0\The Mighty Console.pdb
 C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\obj\Release\net6.0\The Mighty Console.genruntimeconfig.cache
 C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\obj\Release\net6.0\ref\The Mighty Console.dll
+C:\Users\TimGe\Documents\The Mighty Console\The Mighty Console\obj\Release\net6.0\The Mighty Console.sourcelink.json
