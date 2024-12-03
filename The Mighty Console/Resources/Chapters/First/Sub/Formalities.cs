@@ -14,7 +14,7 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub
 
         public void Exec()
         {
-            Framework.PrintStoryDialogue("Resources.Tables.Dialogue.First.Formalities.Greetings.txt");
+            PrintFormalitiesDialogue("Greetings.txt");
             Name.name();
             Console.WriteLine();
             Age.age();
@@ -24,8 +24,9 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub
             EyeColor.eyeColor();
             Console.WriteLine();
             Nationality.nationality();
+            Framework.skippedFirst = false;
             Console.WriteLine();
-            Framework.PrintStoryDialogue("Resources.Tables.Dialogue.First.Formalities.Conclusion.txt");
+            PrintFormalitiesDialogue("Conclusion.txt");
             Console.ReadKey();
         }
         public void RespondWithDataPoints()
@@ -34,7 +35,7 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub
             Console.ForegroundColor = ConsoleColor.Red;
             DataSummarization();
             Confirmation();
-            Framework.PrintStoryDialogue("Resources.Tables.Dialogue.First.Formalities.ExitResponse.txt");
+            PrintFormalitiesDialogue("ExitResponse.txt");
             Console.ForegroundColor = ConsoleColor.White;
         }
         private void DataSummarization()
@@ -63,5 +64,7 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub
             choices.Add("Correct.");
             Framework.PlayerChoice(choices, false, 0, true, true, ConsoleColor.White, true);
         }
+
+        private void PrintFormalitiesDialogue(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.First.Formalities.{dotPath}");
     }
 }

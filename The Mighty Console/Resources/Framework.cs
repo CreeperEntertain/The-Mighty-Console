@@ -19,6 +19,8 @@ namespace The_Mighty_Console.Resources
 
 
         public bool skippedIntro = true;
+        public bool skippedFirst = true;
+        public bool skippedSecond = true; // TODO: Implement this variable in the second chapter.
 
         public bool isAtPC = true;
         public bool loggedIn = false;

@@ -1,6 +1,7 @@
 ﻿using The_Mighty_Console.Resources;
 using The_Mighty_Console.Resources.Chapters.First;
 using The_Mighty_Console.Resources.Chapters.Intro;
+using The_Mighty_Console.Resources.Chapters.Second;
 
 namespace The_Mighty_Console
 {
@@ -10,9 +11,6 @@ namespace The_Mighty_Console
 
         private static AppControl appControl = new AppControl();
 
-        private static Intro intro = new Intro();
-        private static First first = new First();
-
         static void Main(string[] args)
         {
             appControl.LaunchCheck(args);
@@ -20,9 +18,11 @@ namespace The_Mighty_Console
             appControl.ExitKeybindInhibitor();
             appControl.ConsoleInitializer();
 
-            //intro.Exec();
+            new Intro().Exec();
             if (Framework.skippedIntro) appControl.ChapterFirstGameState();
-            first.Exec();
+            new First().Exec();
+            if (Framework.skippedFirst) appControl.ChapterSecondGameState();
+            new Second().Exec();
 
             Framework.PrintStoryDialogue("Resources.Tables.Dialogue.Intermissions.EndOfDemo.txt");
         }

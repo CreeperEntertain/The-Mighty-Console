@@ -12,10 +12,10 @@ namespace The_Mighty_Console.Resources.Chapters.First
         public void Exec()
         {
             ConsoleStorage.Instance.ResumeRecording();
-            //formalities.Exec();
-            //formalities.RespondWithDataPoints();
+            formalities.Exec();
+            formalities.RespondWithDataPoints();
             formFlicker.Exec();
-            // TODO: Implement rest of the first chapter.
+            Framework.PrintStoryDialogue("Resources.Tables.Dialogue.Intermissions.FirstCompleted.txt");
             ConsoleStorage.Instance.PauseRecording();
         }
     }

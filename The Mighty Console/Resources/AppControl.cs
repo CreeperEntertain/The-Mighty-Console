@@ -50,5 +50,13 @@
             Framework.AddProcess("TMC.exe", 78123, "User", 76253);
             Framework.userPath = "rsrch_00827";
         }
+        public void ChapterSecondGameState()
+        {
+            Framework.name = "Sasha";
+            Framework.nationality = "Russia";
+            Framework.age = 25;
+            Framework.height = 1.65;
+            Framework.eyeColor = "Brown";
+        }
     }
 }
