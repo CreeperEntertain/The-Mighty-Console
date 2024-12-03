@@ -1,4 +1,5 @@
-﻿using The_Mighty_Console.Resources.Commands.Classes;
+﻿#pragma warning disable CA1416 // FUCK the Windows compatibility layer in particular. Whoever came up with it deserves to burn in hell.
+using The_Mighty_Console.Resources.Commands.Classes;
 
 namespace The_Mighty_Console.Resources.Chapters.First.Sub
 {
@@ -26,13 +27,43 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub
 
             Choice(new List<string> { "What was that?" });
             PrintFormFlickerDialogue("First.First.txt");
-            // TODO: Implement AI countdown from 10 to 0 and claim that it could be dead.
+            Countdown();
             PrintFormFlickerDialogue("First.Second.txt");
 
             Choice(new List<string> { "The complicated or the simple option?" });
             PrintFormFlickerDialogue("Second.txt");
 
             Third();
+        }
+        private void Countdown()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            for (int i = 0; i < 10; i++)
+                Console.WriteLine();
+            ConsoleStorage.Clear();
+            int originalWindowTop = Console.WindowTop;
+            string output;
+            string outputClearer;
+            for (int i = 10; i > 0; i--)
+            {
+                output = Framework.CenterString(i.ToString());
+                ResetCursor(originalWindowTop);
+                Framework.DelayedPrint(output, 0, false);
+                Thread.Sleep(1000);
+                outputClearer = Framework.SetStringLength("", output.Length);
+                ResetCursor(originalWindowTop);
+                Framework.DelayedPrint(outputClearer, 0, false);
+            }
+            ResetCursor(originalWindowTop);
+            Framework.DelayedPrint(Framework.CenterString("0"), 0);
+            Thread.Sleep(2000);
+            ConsoleStorage.Clear();
+            Console.WriteLine();
+        }
+        private void ResetCursor(int originalWindowTop)
+        {
+            Console.WindowTop = originalWindowTop;
+            Console.CursorLeft = 0;
         }
         private void Third()
         {

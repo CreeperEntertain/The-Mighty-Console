@@ -18,7 +18,7 @@ namespace The_Mighty_Console
             appControl.ExitKeybindInhibitor();
             appControl.ConsoleInitializer();
 
-            new Intro().Exec();
+            //new Intro().Exec();
             if (Framework.skippedIntro) appControl.ChapterFirstGameState();
             new First().Exec();
             if (Framework.skippedFirst) appControl.ChapterSecondGameState();
