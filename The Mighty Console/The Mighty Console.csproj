@@ -191,6 +191,7 @@
     <Folder Include="Resources\Tables\Dialogue\First\FormFlicker\Third\1\" />
     <Folder Include="Resources\Tables\Dialogue\First\FormFlicker\Third\2\" />
     <Folder Include="Resources\Tables\Dialogue\First\FormFlicker\Third\3\" />
+    <Folder Include="Resources\Tables\Dialogue\Second\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\Basement\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\EntranceHall\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\MainRoom\" />

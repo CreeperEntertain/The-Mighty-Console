@@ -20,7 +20,7 @@ namespace The_Mighty_Console
 
             //new Intro().Exec();
             if (Framework.skippedIntro) appControl.ChapterFirstGameState();
-            new First().Exec();
+            //new First().Exec();
             if (Framework.skippedFirst) appControl.ChapterSecondGameState();
             new Second().Exec();
 

@@ -13,6 +13,7 @@ namespace The_Mighty_Console.Resources
     internal class Framework
     {
         // One singleton to rule them ALL!
+        // Not standard or even suggested practice, but fuck it, we ball.
         private static readonly Framework _instance = new Framework();
         private Framework() { ConsoleStorage.Instance.StoreConsole(); }
         public static Framework Instance => _instance;
@@ -37,11 +38,12 @@ namespace The_Mighty_Console.Resources
         public bool exploredStorage = false;
         public bool investigatedStorage = false;
 
+        public bool rashMentioned = false;
         public bool usbPerms = false;
         public bool usbTileLifted = false;
         public bool formulaPerms = false;
         public bool formulaCollected = false;
-        public bool discoveredHint = false;
+        public bool discoveredHint = false; // Used in Basement.cs
 
         public string userPath = "main.usrs.tmp";
         public string textInput = "";

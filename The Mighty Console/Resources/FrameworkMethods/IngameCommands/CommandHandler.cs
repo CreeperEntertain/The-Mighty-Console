@@ -1,5 +1,4 @@
-﻿using System.Xml.Serialization;
-using The_Mighty_Console.Resources.Commands.Classes;
+﻿using The_Mighty_Console.Resources.Commands.Classes;
 
 namespace The_Mighty_Console.Resources.FrameworkMethods.IngameCommands
 {

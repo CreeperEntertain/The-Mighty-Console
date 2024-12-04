@@ -1,4 +1,4 @@
-﻿#pragma warning disable CA1416
+﻿#pragma warning disable CA1416 // Shut up.
 namespace The_Mighty_Console.Resources.FrameworkMethods.WindowManagement
 {
     internal class ConsoleFlicker

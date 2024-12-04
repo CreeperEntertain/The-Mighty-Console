@@ -16,9 +16,9 @@
 
             if (!Framework.exploredUpstairs)
             {
-                Framework.PrintStoryDialogue("Resources.Tables.Dialogue.Rooms.Upstairs.Intro.txt");
+                PrintUpstairsDialogue("Intro.txt");
                 Framework.exploredUpstairs = true;
-            } else Framework.PrintStoryDialogue("Resources.Tables.Dialogue.Rooms.Upstairs.IntroAlt.txt");
+            } else PrintUpstairsDialogue("IntroAlt.txt");
             Console.WriteLine();
 
             bool choiceLoop = true;
@@ -29,7 +29,7 @@
                 {
                     case 0:
                         Console.WriteLine();
-                        Framework.PrintStoryDialogue("Resources.Tables.Dialogue.Rooms.Upstairs.Investigate.txt");
+                        PrintUpstairsDialogue("Investigate.txt");
                         Console.WriteLine();
                         break;
                     case 1:
@@ -39,12 +39,12 @@
                         break;
                     case 2:
                         Console.WriteLine();
-                        Framework.PrintStoryDialogue("Resources.Tables.Dialogue.Rooms.Upstairs.Return.txt");
+                        PrintUpstairsDialogue("Return.txt");
                         choiceLoop = false;
                         break;
                     case 3:
                         Console.WriteLine();
-                        Framework.PrintStoryDialogue("Resources.Tables.Dialogue.Rooms.Upstairs.LiftTile.txt");
+                        PrintUpstairsDialogue("LiftTile.txt");
                         Console.WriteLine();
                         Framework.usbTileLifted = true;
                         if (choices.Count >= 4) choices.RemoveAt(3);
@@ -52,5 +52,7 @@
                 }
             }
         }
+
+        private void PrintUpstairsDialogue(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Rooms.Upstairs.{dotPath}");
     }
 }
