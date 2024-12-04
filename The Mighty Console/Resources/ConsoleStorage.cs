@@ -127,6 +127,7 @@ internal class ConsoleStorage
 
         public override string ReadLine()
         {
+            int cursorSnapshot = Console.CursorLeft;
             string input = originalReader.ReadLine() ?? "";
             if (!ConsoleStorage.Instance.isPaused)
             {
@@ -136,13 +137,9 @@ internal class ConsoleStorage
                 Console.SetCursorPosition(0, Console.CursorTop);
                 ConsoleStorage.Instance.TextInput = input;
 
-                int textOverwriteOffset = 0;
                 if (ConsoleStorage.Instance.addOffset)
-                {
-                    textOverwriteOffset = Framework.InputDecoration().Length;
                     ConsoleStorage.Instance.addOffset = false;
-                }
-                Console.SetCursorPosition(textOverwriteOffset, Console.CursorTop - 1);
+                Console.SetCursorPosition(cursorSnapshot, Console.CursorTop - 1);
                 Console.Write(input);
                 Console.WriteLine();
             }
