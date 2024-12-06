@@ -2,8 +2,6 @@
 {
     internal class MentionRash
     {
-        public void Exec()
-        {
-        }
+        public void Exec() => Framework.Instance.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.4.MentionRash.txt");
     }
 }

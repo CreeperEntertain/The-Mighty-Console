@@ -2,8 +2,6 @@
 {
     internal class UsbExplanation
     {
-        public void Exec()
-        {
-        }
+        public void Exec() => Framework.Instance.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.6.UsbExplanation.txt");
     }
 }

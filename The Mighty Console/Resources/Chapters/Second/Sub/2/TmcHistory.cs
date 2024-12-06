@@ -2,8 +2,6 @@
 {
     internal class TmcHistory
     {
-        public void Exec()
-        {
-        }
+        public void Exec() => Framework.Instance.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.2.TmcHistory.txt");
     }
 }

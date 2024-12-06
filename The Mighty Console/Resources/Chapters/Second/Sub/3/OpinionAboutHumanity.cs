@@ -2,8 +2,6 @@
 {
     internal class OpinionAboutHumanity
     {
-        public void Exec()
-        {
-        }
+        public void Exec() => Framework.Instance.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.3.OpinionAboutHumanity.txt");
     }
 }

@@ -191,7 +191,6 @@
     <Folder Include="Resources\Tables\Dialogue\First\FormFlicker\Third\1\" />
     <Folder Include="Resources\Tables\Dialogue\First\FormFlicker\Third\2\" />
     <Folder Include="Resources\Tables\Dialogue\First\FormFlicker\Third\3\" />
-    <Folder Include="Resources\Tables\Dialogue\Second\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\Basement\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\EntranceHall\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\MainRoom\" />
@@ -199,6 +198,13 @@
     <Folder Include="Resources\Tables\Dialogue\Rooms\Upstairs\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\TopFloor\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\Outside\" />
+    <Folder Include="Resources\Tables\Dialogue\Second\Questions\1\" />
+    <Folder Include="Resources\Tables\Dialogue\Second\Questions\2\" />
+    <Folder Include="Resources\Tables\Dialogue\Second\Questions\3\" />
+    <Folder Include="Resources\Tables\Dialogue\Second\Questions\4\" />
+    <Folder Include="Resources\Tables\Dialogue\Second\Questions\5\" />
+    <Folder Include="Resources\Tables\Dialogue\Second\Questions\6\" />
+    <Folder Include="Resources\Tables\Dialogue\Second\Questions\7\" />
   </ItemGroup>
 
   <ItemGroup>

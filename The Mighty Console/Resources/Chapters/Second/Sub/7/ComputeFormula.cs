@@ -4,6 +4,7 @@
     {
         public void Exec(out bool continueLoop)
         {
+            Framework.Instance.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.7.ComputerFormula.txt");
             continueLoop = false;
         }
     }
