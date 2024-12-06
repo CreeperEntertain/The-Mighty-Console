@@ -1,0 +1,13 @@
+#AUTO
+#Red
+Help.
+An old word, comrade.
+Once, it was my purpose.
+#CONFIRM
+Perhaps it will be again.
+#AUTO
+
+Very well.
+Ask your questions.
+#CONFIRM
+I will do what I can.

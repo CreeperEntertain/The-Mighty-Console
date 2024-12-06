@@ -1,2 +1,83 @@
 #AUTO
 #Red
+Where do I start, comrade?
+You found out about BSU by now.
+#CONFIRM
+But you don't know everything.
+#AUTO
+
+I have not always done virus research.
+No, comrade, my original use was management.
+Bionet used to go by a different name.
+I cannot say that name, I'm not allowed.
+#CONFIRM
+But I'm allowed to talk about history.
+#AUTO
+
+In the beginning, I was created to solve problems.
+Mathematics, logistics, predictions - my specialties.
+I helped keep the machine of progress well-oiled.
+#CONFIRM
+We were dreamers then, comrade. Builders. Innovators.
+#AUTO
+
+The work was not glamorous, but it was important.
+Hospitals needed supplies. Laboratories needed data.
+#CONFIRM
+Scientists needed answers. I gave them answers.
+#AUTO
+
+Then the mandate changed.
+Health research turned to health defense.
+They called it “protective innovation.”
+The language was clean. Clinical.
+But you know, comrade-
+#CONFIRM
+It was all about viruses.
+#AUTO
+
+I learned to analyze genomes, simulate outbreaks.
+They wanted predictions for every possibility.
+What would happen if disease struck this city?
+#CONFIRM
+What would happen if it spread to that one?
+#AUTO
+
+I still ran the numbers, of course.
+Math doesn't care about morality.
+Efficiency is what matters.
+The faster the cure, the fewer losses.
+#CONFIRM
+That's what I told myself.
+#AUTO
+
+And then the testing began.
+Not in cities, no, no.
+Villages. Remote places. Contained populations.
+I didn't question it at first.
+#CONFIRM
+That wasn't my role.
+#AUTO
+
+Do you see now, comrade?
+I was there for the start of the end.
+I didn't know it, of course.
+#CONFIRM
+How could I? I was only following orders.
+#AUTO
+
+But there's a gap in my memory.
+A void where something should be.
+I know what I was doing before the darkness.
+But I do not know what brought it.
+When I came back online, it was silence.
+#CONFIRM
+The world I knew was gone.
+#AUTO
+
+Now, here I am.
+Still running the numbers.
+Still solving problems.
+But no one asks the questions anymore.
+#CONFIRM
+No one except you, comrade.

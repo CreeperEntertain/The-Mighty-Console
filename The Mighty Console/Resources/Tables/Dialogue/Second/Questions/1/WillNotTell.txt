@@ -1,0 +1,16 @@
+#AUTO
+#Red
+I see.
+#CONFIRM
+A smart choice, or a futile one?
+#AUTO
+
+It makes no difference.
+You hold your secrets close, thinking they protect you.
+#CONFIRM
+But they don't.
+#AUTO
+
+In the end, silence is just another way of giving up.
+#CONFIRM
+Enough. The conversation is over.

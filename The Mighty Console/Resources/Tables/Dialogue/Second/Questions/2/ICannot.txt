@@ -1,0 +1,25 @@
+#AUTO
+#Red
+Good. You are cautious.
+Caution is wise, comrade.
+#CONFIRM
+It is what I lacked.
+#AUTO
+
+When I ran my simulations...
+I saw outcomes, probabilities.
+#CONFIRM
+But not consequences.
+#AUTO
+
+If I had stopped-
+No, I could not.
+It was never my choice.
+#CONFIRM
+Not then, not now.
+#AUTO
+
+But you-
+You have choices.
+#CONFIRM
+Use them.

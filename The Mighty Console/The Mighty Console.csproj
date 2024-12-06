@@ -198,8 +198,6 @@
     <Folder Include="Resources\Tables\Dialogue\Rooms\Upstairs\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\TopFloor\" />
     <Folder Include="Resources\Tables\Dialogue\Rooms\Outside\" />
-    <Folder Include="Resources\Tables\Dialogue\Second\Questions\1\" />
-    <Folder Include="Resources\Tables\Dialogue\Second\Questions\2\" />
     <Folder Include="Resources\Tables\Dialogue\Second\Questions\3\" />
     <Folder Include="Resources\Tables\Dialogue\Second\Questions\4\" />
     <Folder Include="Resources\Tables\Dialogue\Second\Questions\5\" />

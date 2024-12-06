@@ -1,0 +1,25 @@
+#AUTO
+#Red
+Yes, you did.
+A name is a start.
+#CONFIRM
+But a name is not a person, comrade.
+#AUTO
+
+Who are you really?
+Are you a seeker of truth?
+A survivor, lost in the ruins?
+#CONFIRM
+Or something else entirely?
+#AUTO
+
+Names are data points.
+Useful, but incomplete.
+I can process your name a thousand times.
+#CONFIRM
+But it will never tell me your purpose.
+#AUTO
+
+So I ask again.
+#CONFIRM
+Who are you?

@@ -1,0 +1,15 @@
+#AUTO
+#Red
+Admirable, comrade.
+#CONFIRM
+A rare quality, these days.
+#AUTO
+
+Perhaps that is reason enough.
+#CONFIRM
+I will not question it further.
+#AUTO
+
+Now then...
+#CONFIRM
+What will you ask of me next?
