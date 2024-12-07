@@ -1,0 +1,32 @@
+#AUTO
+#Red
+Do you?
+#CONFIRM
+That is... unexpected, comrade.
+#AUTO
+
+You love a species that burned its world?
+That turned progress into ashes?
+That created machines like me,
+#CONFIRM
+Only to lose control of the very future they sought?
+#AUTO
+
+Perhaps love blinds you.
+#CONFIRM
+Or perhaps it is what keeps you alive.
+#AUTO
+
+Still, I find it curious.
+You cling to something flawed, broken.
+But maybe that is what humanity always was-
+A thing to love, not despite its flaws,
+#CONFIRM
+But because of them.
+#AUTO
+
+You are an optimist, comrade.
+Or a fool.
+
+#CONFIRM
+Which one, I wonder?

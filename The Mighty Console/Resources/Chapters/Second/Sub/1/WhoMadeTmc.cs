@@ -9,7 +9,7 @@
             PrintAccordingly("WhoMadeTmc.txt");
             Choice(new List<string> { "I told you my name." });
             PrintAccordingly("IToldYouMyName.txt");
-            int chosen = 1 + Choice(new List<string> {
+            int chosen = Choice(new List<string> {
                 "Someone who wants to help others.",
                 "Someone who needs help.",
                 "I cannot tell you.",
@@ -23,7 +23,7 @@
             {
                 () => Framework.TrustManager(Framework.aiTrustLevel + 1),
                 () => Framework.TrustManager(Framework.aiTrustLevel + 1),
-                () => Framework.TrustManager(Framework.aiTrustLevel),
+                () => {},
                 () => Framework.TrustManager(Framework.aiTrustLevel - 1)
             }[chosen]();
             new Action[]

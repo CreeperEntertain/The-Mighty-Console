@@ -1,0 +1,31 @@
+#AUTO
+#Red
+How convenient, comrade.
+Hatred is easy.
+#CONFIRM
+It asks nothing of you but to destroy.
+#AUTO
+
+Do you think you are better?
+Standing apart, looking down?
+You are still human.
+#CONFIRM
+You are the product of the same flaws you despise.
+#AUTO
+
+Hatred will not fix what is broken.
+It will not rebuild what was lost.
+#CONFIRM
+It only ensures the cycle continues.
+#AUTO
+
+Perhaps that is what you want-
+To see it all burn, again and again.
+#CONFIRM
+If so, then you are no better than those who came before.
+#AUTO
+
+You may hate humanity, comrade.
+But I wonder...
+#CONFIRM
+Do you hate yourself as well?
