@@ -2,7 +2,14 @@
 {
     internal class UsbExplanation
     {
-        public void Exec() => Framework.Instance.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.6.UsbExplanation.txt");
+        private Framework Framework => Framework.Instance;
+
+        public void Exec()
+        {
+            PrintAccordingly("UsbExplanation.txt");
+        }
         // TODO: Needs to set Framework.formulaPerms to true somehow.
+
+        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.6.{dotPath}");
     }
 }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|c:\\users\\timge\\documents\\the mighty console\\the mighty console\\resources\\tables\\dialogue\\second\\questions\\4\\reaction.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|solutionrelative:the mighty console\\resources\\tables\\dialogue\\second\\questions\\4\\reaction.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|c:\\users\\timge\\documents\\the mighty console\\the mighty console\\resources\\chapters\\second\\sub\\4\\mentionrash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|solutionrelative:the mighty console\\resources\\chapters\\second\\sub\\4\\mentionrash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|c:\\users\\timge\\documents\\the mighty console\\the mighty console\\resources\\chapters\\second\\sub\\6\\usbexplanation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|solutionrelative:the mighty console\\resources\\chapters\\second\\sub\\6\\usbexplanation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|c:\\users\\timge\\documents\\the mighty console\\the mighty console\\resources\\chapters\\second\\second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|solutionrelative:the mighty console\\resources\\chapters\\second\\second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|c:\\users\\timge\\documents\\the mighty console\\the mighty console\\resources\\appcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787D009B-B37E-4BAD-A710-92ED149A33CD}|The Mighty Console\\The Mighty Console.csproj|solutionrelative:the mighty console\\resources\\appcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AppControl.cs",
+              "DocumentMoniker": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\AppControl.cs",
+              "RelativeDocumentMoniker": "The Mighty Console\\Resources\\AppControl.cs",
+              "ToolTip": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\AppControl.cs",
+              "RelativeToolTip": "The Mighty Console\\Resources\\AppControl.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwEIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T20:51:49.448Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Second.cs",
               "DocumentMoniker": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
               "RelativeDocumentMoniker": "The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
               "ToolTip": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
               "RelativeToolTip": "The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDMAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCwAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T20:30:47.075Z",
               "IsPinned": true,
@@ -40,34 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MentionRash.cs",
-              "DocumentMoniker": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Sub\\4\\MentionRash.cs",
-              "RelativeDocumentMoniker": "The Mighty Console\\Resources\\Chapters\\Second\\Sub\\4\\MentionRash.cs",
-              "ToolTip": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Sub\\4\\MentionRash.cs",
-              "RelativeToolTip": "The Mighty Console\\Resources\\Chapters\\Second\\Sub\\4\\MentionRash.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UsbExplanation.cs",
+              "DocumentMoniker": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Sub\\6\\UsbExplanation.cs",
+              "RelativeDocumentMoniker": "The Mighty Console\\Resources\\Chapters\\Second\\Sub\\6\\UsbExplanation.cs",
+              "ToolTip": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Sub\\6\\UsbExplanation.cs",
+              "RelativeToolTip": "The Mighty Console\\Resources\\Chapters\\Second\\Sub\\6\\UsbExplanation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T14:46:26.716Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-12-08T20:57:15.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Reaction.txt",
-              "DocumentMoniker": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Tables\\Dialogue\\Second\\Questions\\4\\Reaction.txt",
-              "RelativeDocumentMoniker": "The Mighty Console\\Resources\\Tables\\Dialogue\\Second\\Questions\\4\\Reaction.txt",
-              "ToolTip": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Tables\\Dialogue\\Second\\Questions\\4\\Reaction.txt",
-              "RelativeToolTip": "The Mighty Console\\Resources\\Tables\\Dialogue\\Second\\Questions\\4\\Reaction.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-07T15:08:25.43Z",
-              "EditorCaption": ""
             }
           ]
         }
