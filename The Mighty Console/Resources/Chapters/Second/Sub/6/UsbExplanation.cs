@@ -3,5 +3,6 @@
     internal class UsbExplanation
     {
         public void Exec() => Framework.Instance.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.6.UsbExplanation.txt");
+        // TODO: Needs to set Framework.formulaPerms to true somehow.
     }
 }

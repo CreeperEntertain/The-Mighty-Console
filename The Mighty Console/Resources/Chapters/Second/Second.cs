@@ -40,7 +40,7 @@ namespace The_Mighty_Console.Resources.Chapters.Second
             if (Framework.rashMentioned)
                 choices.Add("What is the formula for an antidote?");
             if (Framework.usbTileLifted)
-                choices.Add("How do I use this USB stick?");
+                choices.Add("I found the flash drive. How do I use it?");
             if (Framework.formulaCollected)
                 choices.Add("A9F2-34Z$-Q8@5-K1!4-GG2C-8L*M-32B7-F#7H-J10X-2V&W-7E5R");
         }

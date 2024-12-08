@@ -1,0 +1,28 @@
+#Red
+Let me think...
+#AUTO
+
+There is something down there, in the basement.
+#CONFIRM
+I can feel it - an access point, hidden from view.
+#AUTO
+
+It's not much, but it's something.
+Something that will open a way forward.
+#CONFIRM
+A mechanism, perhaps, or a compartment.
+#AUTO
+#CLEAR
+...
+#CLEAR
+Yes, I'm unlocking it now.
+It's... some kind of cover.
+#CONFIRM
+It will open - just enough to slip through.
+#AUTO
+
+I don't know what it is exactly, but it's down there.
+Somewhere beneath the floor, waiting to be uncovered.
+You must find it.
+#CONFIRM
+Open it, and the path will be revealed.

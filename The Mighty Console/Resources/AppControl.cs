@@ -58,5 +58,13 @@
             Framework.height = 1.65;
             Framework.eyeColor = "Brown";
         }
+        public void ChapterThirdGameState()
+        {
+            Framework.rashMentioned = true;
+            Framework.usbPerms = true;
+            Framework.usbTileLifted = true;
+            Framework.formulaPerms = true;
+            Framework.formulaCollected = true;
+        }
     }
 }

@@ -23,6 +23,7 @@ namespace The_Mighty_Console
             //new First().Exec();
             if (Framework.skippedFirst) appControl.ChapterSecondGameState();
             new Second().Exec();
+            if (Framework.skippedSecond) appControl.ChapterThirdGameState();
 
             Framework.PrintStoryDialogue("Resources.Tables.Dialogue.Intermissions.EndOfDemo.txt");
         }
