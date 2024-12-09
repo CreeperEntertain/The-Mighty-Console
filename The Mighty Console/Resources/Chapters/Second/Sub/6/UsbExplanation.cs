@@ -4,11 +4,24 @@
     {
         private Framework Framework => Framework.Instance;
 
+        private Second second = new Second();
+
         public void Exec()
         {
-            PrintAccordingly("UsbExplanation.txt");
+            if (second.iFoundTheFlashDriveHowDoIUseItAsked)
+                AltResponse();
+            else RegularResponse();
         }
-        // TODO: Needs to set Framework.formulaPerms to true somehow.
+
+        private void AltResponse()
+        {
+
+        }
+        private void RegularResponse() // TODO: Needs to set Framework.formulaPerms to true somehow.
+        {
+            PrintAccordingly("UsbExplanation.txt");
+            second.iFoundTheFlashDriveHowDoIUseItAsked = true;
+        }
 
         private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.6.{dotPath}");
     }

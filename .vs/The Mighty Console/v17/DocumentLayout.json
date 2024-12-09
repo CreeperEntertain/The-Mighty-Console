@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -45,14 +45,11 @@
               "RelativeDocumentMoniker": "The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
               "ToolTip": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
               "RelativeToolTip": "The Mighty Console\\Resources\\Chapters\\Second\\Second.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCwAAABWAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T20:30:47.075Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -62,10 +59,15 @@
               "RelativeDocumentMoniker": "The Mighty Console\\Resources\\Chapters\\Second\\Sub\\6\\UsbExplanation.cs",
               "ToolTip": "C:\\Users\\TimGe\\Documents\\The Mighty Console\\The Mighty Console\\Resources\\Chapters\\Second\\Sub\\6\\UsbExplanation.cs",
               "RelativeToolTip": "The Mighty Console\\Resources\\Chapters\\Second\\Sub\\6\\UsbExplanation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T20:57:15.317Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

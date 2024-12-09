@@ -4,7 +4,20 @@
     {
         private Framework Framework => Framework.Instance;
 
+        private Second second = new Second();
+
         public void Exec()
+        {
+            if (second.whoMadeYouAsked)
+                AltResponse();
+            else RegularResponse();
+        }
+
+        private void AltResponse()
+        {
+
+        }
+        private void RegularResponse()
         {
             PrintAccordingly("TmcHistory.txt");
             Choice(new List<string> { "Sounds rough..." });
@@ -12,6 +25,7 @@
             Choice(new List<string> { "I would not, I cannot. Not now." });
             Framework.TrustManager(Framework.aiTrustLevel + 1);
             PrintAccordingly("ICannot.txt");
+            second.whoMadeYouAsked = true;
         }
 
         private int Choice(List<string> choices) => Framework.PlayerChoice(choices, true, 0, true, true, ConsoleColor.White, false);

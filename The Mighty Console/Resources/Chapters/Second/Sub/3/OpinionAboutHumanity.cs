@@ -4,16 +4,30 @@
     {
         private Framework Framework => Framework.Instance;
 
+        private Second second = new Second();
+
         public void Exec()
         {
+            if (second.whatDoYouThinkAboutHumanityAsked)
+                AltResponse();
+            else RegularResponse();
+        }
+
+        private void AltResponse()
+        {
+
+        }
+        private void RegularResponse()
+        {
             PrintAccordingly("OpinionAboutHumanity.txt");
-            int chosen = Choice(new List<string> { 
+            int chosen = Choice(new List<string> {
                 "I love humanity.",
                 "I'm indifferent.",
                 "I hate humanity." });
             ChoiceHandler(chosen);
             Console.WriteLine();
             PrintAccordingly("Epilog.txt");
+            second.whatDoYouThinkAboutHumanityAsked = true;
         }
 
         private void ChoiceHandler(int chosen)

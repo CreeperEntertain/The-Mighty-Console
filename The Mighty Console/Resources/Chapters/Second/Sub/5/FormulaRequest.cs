@@ -6,14 +6,31 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._5
     {
         private Framework Framework => Framework.Instance;
 
+        private Second second = new Second();
+
         public void Exec()
+        {
+            if (second.whatIsTheFormulaForTheAntidoteAsked)
+                AltRespose();
+            else DecideResponse();
+        }
+
+        private void AltRespose()
+        {
+
+        }
+        private void DecideResponse()
         {
             if (Framework.aiTrustLevel >= 3)
                 Dialogue();
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Framework.DelayedPrint("Sorry, comrade.");
+                Framework.DelayedPrint("I cannot do that now.");
                 Framework.TrustManager(Framework.aiTrustLevel - 1);
                 Framework.falseRequestAttempts++;
+                Console.ReadKey();
             }
         }
 

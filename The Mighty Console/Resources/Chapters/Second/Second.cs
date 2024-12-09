@@ -12,6 +12,13 @@ namespace The_Mighty_Console.Resources.Chapters.Second
     {
         private Framework Framework => Framework.Instance;
 
+        public bool whoMadeYouAsked = false;
+        public bool whatDidYouWorkOnAsked = false;
+        public bool whatDoYouThinkAboutHumanityAsked = false;
+        public bool iHaveSomethingINeedToTellYouAboutMeSaid = false;
+        public bool whatIsTheFormulaForTheAntidoteAsked = false;
+        public bool iFoundTheFlashDriveHowDoIUseItAsked = false;
+
         public void Exec()
         {
             bool loop;

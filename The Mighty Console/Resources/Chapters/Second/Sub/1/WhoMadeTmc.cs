@@ -4,7 +4,20 @@
     {
         private Framework Framework => Framework.Instance;
 
+        private Second second = new Second();
+
         public void Exec()
+        {
+            if (second.whoMadeYouAsked)
+                AltResponse();
+            else RegularResponse();
+        }
+
+        private void AltResponse()
+        {
+
+        }
+        private void RegularResponse()
         {
             PrintAccordingly("WhoMadeTmc.txt");
             Choice(new List<string> { "I told you my name." });
@@ -15,6 +28,7 @@
                 "I cannot tell you.",
                 "I won't tell you." });
             ChoiceHandler(chosen);
+            second.whoMadeYouAsked = true;
         }
 
         private void ChoiceHandler(int chosen)

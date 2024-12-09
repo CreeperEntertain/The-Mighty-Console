@@ -4,7 +4,20 @@
     {
         private Framework Framework => Framework.Instance;
 
+        private Second second = new Second();
+
         public void Exec()
+        {
+            if (second.iHaveSomethingINeedToTellYouAboutMeSaid)
+                AltResponse();
+            else RegularResponse();
+        }
+
+        private void AltResponse()
+        {
+
+        }
+        private void RegularResponse()
         {
             PrintAccordingly("MentionRash.txt");
             ChoicesInOrder(new List<string> {
@@ -19,6 +32,7 @@
             if (chosen == 0)
                 PrintAccordingly("IDo.txt");
             else PrintAccordingly("IDoNot.txt");
+            second.iHaveSomethingINeedToTellYouAboutMeSaid = true;
         }
 
         private void ChoicesInOrder(List<string> input)
