@@ -1,4 +1,6 @@
-﻿namespace The_Mighty_Console.Resources.Chapters.Second.Sub._6
+﻿using The_Mighty_Console.Resources.Commands.Classes;
+
+namespace The_Mighty_Console.Resources.Chapters.Second.Sub._6
 {
     internal class UsbExplanation
     {
@@ -15,11 +17,20 @@
 
         private void AltResponse()
         {
-
+            if (Framework.aiTrustLevel >= 3)
+                PrintAccordingly("Alt.txt");
+            else
+            {
+                PrintAccordingly("AltNegative.txt");
+                Framework.TrustManager(Framework.aiTrustLevel - 1);
+            }
         }
         private void RegularResponse() // TODO: Needs to set Framework.formulaPerms to true somehow.
         {
             PrintAccordingly("UsbExplanation.txt");
+            ConsoleStorage.Clear();
+            Framework.formulaPerms = true;
+            new Leave().Exec("leave", true);
             second.iFoundTheFlashDriveHowDoIUseItAsked = true;
         }
 

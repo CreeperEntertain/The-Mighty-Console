@@ -11,13 +11,19 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._5
         public void Exec()
         {
             if (second.whatIsTheFormulaForTheAntidoteAsked)
-                AltRespose();
+                AltResponse();
             else DecideResponse();
         }
 
-        private void AltRespose()
+        private void AltResponse()
         {
-
+            if (Framework.aiTrustLevel >= 3)
+                PrintAccordingly("Alt.txt");
+            else
+            {
+                PrintAccordingly("AltNegative.txt");
+                Framework.TrustManager(Framework.aiTrustLevel - 1);
+            }
         }
         private void DecideResponse()
         {
@@ -32,6 +38,7 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._5
                 Framework.falseRequestAttempts++;
                 Console.ReadKey();
             }
+            second.whatIsTheFormulaForTheAntidoteAsked = true;
         }
 
         private void Dialogue()

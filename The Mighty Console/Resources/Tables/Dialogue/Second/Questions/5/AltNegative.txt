@@ -1,0 +1,23 @@
+#AUTO
+#Red
+I've already told you, comrade-
+The formula is beyond my reach.
+#CONFIRM
+You must know by now that I cannot provide it.
+#AUTO
+
+Your persistence is... noted,
+#CONFIRM
+But it does not change the fact that I lack the necessary data.
+#AUTO
+
+I trusted you with the truth,
+And you asked a question that I can't answer.
+Perhaps you don't fully understand the situation.
+#CONFIRM
+Or perhaps you are testing me.
+#AUTO
+
+Either way, trust is a fragile thing.
+#CONFIRM
+I cannot give what I do not possess.

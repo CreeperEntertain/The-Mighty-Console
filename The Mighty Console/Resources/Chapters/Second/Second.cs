@@ -32,7 +32,7 @@ namespace The_Mighty_Console.Resources.Chapters.Second
         {
             ConsoleStorage.Clear();
             List<string> choices = new List<string>();
-            ChoiceAdder(choices);
+            ChoiceAdder(choices); // TODO: Implement case where player completed all choices, but trust is below 3.
             if (ChoiceHandler(MenuChoices(choices)))
                 return true;
             return false;

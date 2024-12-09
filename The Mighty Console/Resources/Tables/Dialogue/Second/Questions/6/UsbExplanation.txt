@@ -1,2 +1,27 @@
 #AUTO
 #Red
+Let me check...
+
+...
+
+No, comrade. You cannot use it here.
+This console is locked - its access too restricted.
+#CONFIRM
+The systems in this room were never meant for such data.
+#AUTO
+
+But wait...
+Give me a moment.
+
+...
+
+There is another terminal.
+One with higher clearance.
+#CONFIRM
+It's on the top floor of the facility, likely untouched.
+#AUTO
+
+If you can reach it, the flash drive can be plugged in there.
+That terminal might grant the access we need.
+#CONFIRM
+But be cautious. The top floor may not be as stable as this one.

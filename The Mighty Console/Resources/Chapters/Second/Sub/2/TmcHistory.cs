@@ -13,10 +13,7 @@
             else RegularResponse();
         }
 
-        private void AltResponse()
-        {
-
-        }
+        private void AltResponse() => PrintAccordingly("Alt.txt");
         private void RegularResponse()
         {
             PrintAccordingly("TmcHistory.txt");

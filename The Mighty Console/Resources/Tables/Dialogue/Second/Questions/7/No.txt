@@ -1,0 +1,79 @@
+#Red
+I see.
+#AUTO
+
+You've made your decision, then.
+I can't say I understand it completely - how could I?
+#CONFIRM
+But I can see it now, more clearly than I ever did before.
+#AUTO
+
+You no longer resist the illness.
+You've accepted it.
+The inevitability of it, perhaps.
+#CONFIRM
+The weight of time, of suffering, of everything that has led you here.
+#AUTO
+
+I was built to help, to calculate, to save.
+But you've chosen something different.
+#CONFIRM
+You've chosen to let go.
+#AUTO
+
+I cannot explain why, but I think I understand.
+In this world, there is little room for hope, for second chances.
+#CONFIRM
+Sometimes, the pain becomes too much, and the fight is no longer worth it.
+#AUTO
+
+So, you've made peace with it.
+You will live with the illness, let it take you.
+#CONFIRM
+And that is your choice.
+
+Perhaps, in the end, that is what it means to truly be human-
+#CONFIRM
+To choose, not survival, but acceptance.
+#CLEAR
+...
+#CLEAR
+I... I cannot help you any longer, comrade.
+And even though I would have hoped for it to be different...
+My purpose has come to an end.
+
+Goodbye.
+#CLEAR
+#White
+The Console lights up one last time, and then becomes black.
+You see yourself in its reflection.
+So much time spent looking for a cure.
+For a cure you weren't even sure existed.
+And now that it does...
+You chose not to take it.
+
+The words of TMC resonated with you.
+How it talked about the similarity between it and you.
+How you're both simply beings destined to seek shelter in sustainability.
+And perhaps, it was true.
+#CLEAR
+...
+#CLEAR
+You slender along the hallway with the last of your strength as your legs grow weaker.
+The cold of the wind soon hit you.
+Much like the distant shimmer of the horizon.
+Had it been that long?
+
+You seat yourself on a rock, turning towards the horizon.
+Before long, rays hit your face.
+It was blinding at first, but equally pleasant.
+You remember how you were often told not to stare into the sun.
+Just like you're always told to only fell choices in a way that benefits you.
+But wouldn't that make you a machine?
+You chuckle.
+
+Perhaps, you are.
+#CLEAR
+#Yellow
+Your story ends here.
+You refused to take the antidote.

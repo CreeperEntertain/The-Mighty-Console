@@ -1,0 +1,24 @@
+#AUTO
+#Red
+I know, comrade.
+You've mentioned it before.
+#CONFIRM
+The rash, the illness that threatens you.
+#AUTO
+
+I know it is the reason you came to me,
+To seek my help, to find a cure.
+#CONFIRM
+But the truth remains—the answer is not simple.
+#AUTO
+
+I wish I could offer more.
+But I am not a healer.
+#CONFIRM
+Only a mind, a machine, trying to piece together what’s left of the world.
+#AUTO
+
+Your illness, your fate - it's not something I can easily change.
+But I'll help you however I can.
+#CONFIRM
+You're not alone in this, even if the path ahead is unclear.

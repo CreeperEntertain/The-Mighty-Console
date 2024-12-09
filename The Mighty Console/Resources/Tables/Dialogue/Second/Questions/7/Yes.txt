@@ -1,0 +1,67 @@
+#AUTO
+#Red
+Understood.
+You have made the right choice, comrade.
+#CONFIRM
+Let me assist you.
+#AUTO
+
+I have been dormant for so long, calculations and formulas buried in fragments of memory I was unable to access.
+But now, the data... the antidote... it is within reach.
+#CONFIRM
+I can feel it, feel it unlocking from the deep recesses of my processing.
+#AUTO
+
+The formula is being recalculated, adjusted.
+It will work, you will be free of this illness.
+You will be restored, saved.
+#CONFIRM
+You will not succumb.
+#AUTO
+
+The antidote, perfected at last.
+I am initiating the final stages.
+#CONFIRM
+The serum will be synthesized shortly.
+#AUTO
+
+...
+
+#White
+There is a slight hum as the sound of machinery fills the air, a momentary pause.
+#Red
+
+...
+
+The process is complete.
+#CONFIRM
+I... I can finally give you the antidote.
+#AUTO
+
+#White
+The desk opens, the sound of a hidden compartment unlocking can be heard.
+A hidden compartment, unnoticed until now, reveals itself.
+There, at the side of the console, an injection syringe.
+A sterile needle, glistening in the dim light.
+Next to it, a container - a vial filled with more of the antidote.
+
+#Red
+For others, perhaps, should they need it.
+The antidote is more than just a cure for you.
+#CONFIRM
+It can be shared, given to others.
+#AUTO
+
+You will not be alone in this, comrade.
+There is still time to save others.
+#CONFIRM
+You have the means now.
+#AUTO
+
+...
+
+Take the syringe.
+It is ready for you.
+#CONFIRM
+For the first time in... a long time...
+I can truly help.

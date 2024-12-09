@@ -1,0 +1,19 @@
+#Red
+So you have it, comrade?
+#AUTO
+
+But did you really think it would be that simple?
+You didn't consider the limitations of this place, did you?
+#CONFIRM
+The console you're using is not equipped for something like this.
+#AUTO
+
+I trusted you to understand the risks,
+To be more thorough.
+#CONFIRM
+Now you come to me with no real plan, no thought.
+#AUTO
+
+I'll help you, yes - but don't mistake my assistance for tolerance.
+#CONFIRM
+Next time, be more thoughtful.

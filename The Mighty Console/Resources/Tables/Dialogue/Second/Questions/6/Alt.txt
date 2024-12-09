@@ -1,0 +1,14 @@
+#AUTO
+#Red
+You've already asked this, comrade.
+The terminal on the top floor is where the drive must be used.
+#CONFIRM
+I’ve already unlocked it for you.
+#AUTO
+
+You're wasting time.
+Head to the top floor and plug it in.
+#CONFIRM
+Only there will we be able to proceed.
+
+Now go. The longer you wait, the less time we have.

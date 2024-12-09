@@ -2,7 +2,7 @@
 Let me think...
 #AUTO
 
-There is something down there, in the basement.
+There is something there, one floor up.
 #CONFIRM
 I can feel it - an access point, hidden from view.
 #AUTO
@@ -21,7 +21,7 @@ It's... some kind of cover.
 It will open - just enough to slip through.
 #AUTO
 
-I don't know what it is exactly, but it's down there.
+I don't know what it is exactly, but it's up there.
 Somewhere beneath the floor, waiting to be uncovered.
 You must find it.
 #CONFIRM
