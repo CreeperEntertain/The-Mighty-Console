@@ -44,6 +44,7 @@ namespace The_Mighty_Console.Resources
         public bool formulaPerms = false;
         public bool formulaCollected = false;
         public bool discoveredHint = false; // Used in Basement.cs
+        public bool aiWithPlayer = false;
 
         public string userPath = "main.usrs.tmp";
         public string textInput = "";

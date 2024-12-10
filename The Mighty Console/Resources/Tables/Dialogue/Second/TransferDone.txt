@@ -1,0 +1,14 @@
+#Red
+...
+
+#White
+With a soft hum, a pedestal rises from the ground beside the desk.
+Its surface is sleek and metallic.
+Atop it rests the "Vector" device, small and unassuming, waiting.
+
+#Red
+#AUTO
+It's done.
+I'm ready.
+#CONFIRM
+Please, take it.

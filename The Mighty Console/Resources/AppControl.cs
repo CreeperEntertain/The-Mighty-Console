@@ -31,10 +31,7 @@
             #pragma warning disable CS8622
             Console.CancelKeyPress += new ConsoleCancelEventHandler(OnCancelKeyPress);
             #pragma warning restore CS8622
-            void OnCancelKeyPress(object sender, ConsoleCancelEventArgs e)
-            {
-                e.Cancel = true;
-            }
+            void OnCancelKeyPress(object sender, ConsoleCancelEventArgs e) => e.Cancel = true;
         }
         public void ConsoleInitializer()
         {
@@ -65,6 +62,9 @@
             Framework.usbTileLifted = true;
             Framework.formulaPerms = true;
             Framework.formulaCollected = true;
+            Framework.DelayedPrint("Is TMC with you?");
+            if (Framework.PlayerChoice(new List<string> { "Yes", "No" }, true, 0, false, false) == 0)
+                Framework.aiWithPlayer = true;
         }
     }
 }
