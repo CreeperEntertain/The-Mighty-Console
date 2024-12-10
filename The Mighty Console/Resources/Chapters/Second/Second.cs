@@ -24,8 +24,9 @@ namespace The_Mighty_Console.Resources.Chapters.Second
             bool loop;
             do loop = MenuWrapper();
             while (loop);
-
             Epilogue();
+            Framework.PrintStoryDialogue("Resources.Tables.Dialogue.Intermissions.SecondCompleted.txt");
+            ConsoleStorage.Instance.PauseRecording();
         }
         private void Epilogue()
         {

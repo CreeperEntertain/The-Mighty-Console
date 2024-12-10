@@ -1,0 +1,5 @@
+#CLEAR
+#Green
+Contratulations. You beat the second chapter.
+#CLEAR
+#White

@@ -1,3 +1,21 @@
 #CLEAR
 #White
-// TODO
+You stand up from the chair.
+It's very uncomfortable.
+You're unsure how you even fell asleep on it.
+Either way, you feel the effects of it now, in every single one of your bones.
+Very unpleasant.
+
+You take your backpack and open it.
+Grasping the container with antidote, you take a look at it for a while.
+To think it's in your hand...
+And before too much thought could be given to the idea,
+Too much spent allowing yourself to think about ideas of power,
+It disappeared in the dark depths.
+And that which holds it on your back.
+#CLEAR
+...
+#CLEAR
+The air has gotten slightly more bearable.
+As if the world knew your success.
+As if it was meant to be.
