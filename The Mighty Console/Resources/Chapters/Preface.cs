@@ -6,6 +6,7 @@
         public void Exec()
         {
             Framework.ErrorPrint("This game features flashing lights. Players prone to photosensitive epilepsy should not play. Continue?", true);
+            Framework.Beep();
             int chosen = Framework.PlayerChoice(new List<string> { 
                 "Yes",
                 "No" }, false, 0, false, true, ConsoleColor.Red);

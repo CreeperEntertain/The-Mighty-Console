@@ -9,7 +9,7 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._7
         public void Exec(out bool continueLoop)
         {
             PrintAccordingly("ComputerFormula.txt");
-            PlayerWarning();
+            Framework.PlayerWarning();
             int chosen = Choice(new List<string> {
                 "Yes",
                 "No" });
@@ -38,23 +38,6 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._7
         {
             PrintAccordingly("No.txt");
             Framework.GameOver();
-        }
-
-        private void PlayerWarning()
-        {
-            string warning = "  WARNING! This choice will impact your ending.  ";
-            string empty = "";
-            foreach (char c in warning)
-                empty += " ";
-            Console.WriteLine();
-            Console.BackgroundColor = ConsoleColor.Red;
-            Console.ForegroundColor = ConsoleColor.Black;
-            Framework.DelayedPrint(empty);
-            Framework.DelayedPrint(warning);
-            Framework.DelayedPrint(empty);
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine();
         }
 
         private int Choice(List<string> choices) => Framework.PlayerChoice(choices, true, 0, true, true, ConsoleColor.White, false);

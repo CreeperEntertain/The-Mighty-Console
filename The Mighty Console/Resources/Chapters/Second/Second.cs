@@ -70,7 +70,7 @@ namespace The_Mighty_Console.Resources.Chapters.Second
                 "People who are scared.",
                 "Scared of the company that brought their dilemma." });
             PrintSecondDialogue("Decision.txt");
-            PlayerWarning();
+            Framework.PlayerWarning();
             int chosen = Choice(new List<string> {
                 "Yes, I will take you with me.",
                 "No, I will not take you with me." });
@@ -173,23 +173,6 @@ namespace The_Mighty_Console.Resources.Chapters.Second
                 () => new ComputeFormula().Exec(out continueLoop)
             }[chosen]();
             return continueLoop;
-        }
-
-        private void PlayerWarning()
-        {
-            string warning = "  WARNING! This choice will impact your ending.  ";
-            string empty = "";
-            foreach (char c in warning)
-                empty += " ";
-            Console.WriteLine();
-            Console.BackgroundColor = ConsoleColor.Red;
-            Console.ForegroundColor = ConsoleColor.Black;
-            Framework.DelayedPrint(empty);
-            Framework.DelayedPrint(warning);
-            Framework.DelayedPrint(empty);
-            Console.BackgroundColor = ConsoleColor.Black;
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine();
         }
 
         private void ChoicesInOrder(List<string> choices, bool resume = true)

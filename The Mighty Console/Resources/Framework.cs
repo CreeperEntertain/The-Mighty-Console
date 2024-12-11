@@ -393,6 +393,18 @@ namespace The_Mighty_Console.Resources
             => consoleFlicker.Exec(flickerColor, repetitions, delay);
         private ConsoleFlicker consoleFlicker = new ConsoleFlicker();
         /// <summary>
+        /// Warns the player about a choice that will impact the game's progression.
+        /// </summary>
+        public void PlayerWarning()
+            => playerWarning.Exec();
+        private PlayerWarning playerWarning = new PlayerWarning();
+        /// <summary>
+        /// Beeps the console a few times.
+        /// </summary>
+        public void Beep()
+            => beep.Exec();
+        private Beep beep = new Beep();
+        /// <summary>
         /// Checks whether the player is logged in before running the selected command.
         /// </summary>
         /// <param name="commandMethod"></param>
