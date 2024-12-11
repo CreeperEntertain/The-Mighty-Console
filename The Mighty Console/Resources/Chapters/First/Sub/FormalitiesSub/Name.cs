@@ -1,4 +1,5 @@
-﻿using The_Mighty_Console.Resources.GameData.Lists;
+﻿using System.Diagnostics;
+using The_Mighty_Console.Resources.GameData.Lists;
 
 namespace The_Mighty_Console.Resources.Chapters.First.Sub.FormalitiesSub
 {
@@ -14,7 +15,10 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub.FormalitiesSub
             {
                 Framework.InputHandler();
                 if (Framework.textInput.ToLower() == "rick")
-                    System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); // We're never gonna give up the player.
+                    Process.Start(new ProcessStartInfo("https://www.youtube.com/watch?v=dQw4w9WgXcQ") // We're never gonna give up the player.
+                    {
+                        UseShellExecute = true
+                    });
                 if (string.IsNullOrEmpty(Framework.textInput))
                     PrintNameDialogue("Empty.txt");
                 else if (AiNames.Contains(Framework.textInput.ToLower()))

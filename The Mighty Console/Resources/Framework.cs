@@ -21,7 +21,7 @@ namespace The_Mighty_Console.Resources
 
         public bool skippedIntro = true;
         public bool skippedFirst = true;
-        public bool skippedSecond = true; // TODO: Implement this variable in the second chapter.
+        public bool skippedSecond = true;
 
         public bool isAtPC = true;
         public bool loggedIn = false;
@@ -43,7 +43,7 @@ namespace The_Mighty_Console.Resources
         public bool usbTileLifted = false;
         public bool formulaPerms = false;
         public bool formulaCollected = false;
-        public bool discoveredHint = false; // Used in Basement.cs
+        public bool discoveredHint = false;
         public bool aiWithPlayer = false;
 
         public string userPath = "main.usrs.tmp";

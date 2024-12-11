@@ -11,6 +11,7 @@
                 "No" }, false, 0, false, true, ConsoleColor.Red);
             if (chosen == 1)
                 Environment.Exit(0);
+            ConsoleStorage.Clear();
         }
     }
 }
