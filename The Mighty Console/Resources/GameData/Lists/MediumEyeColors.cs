@@ -11,9 +11,6 @@
             _items = Framework.InternalFileToList("Resources.GameData.Lists.Source.MediumEyeColors.txt") ?? new List<string>();
         }
 
-        public static List<string> GetItems()
-        {
-            return _items;
-        }
+        public static List<string> GetItems() => _items;
     }
 }

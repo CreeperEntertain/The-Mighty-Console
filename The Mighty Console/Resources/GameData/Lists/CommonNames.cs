@@ -11,9 +11,6 @@
             _items = Framework.InternalFileToList("Resources.GameData.Lists.Source.CommonNames.txt") ?? new List<string>();
         }
 
-        public static bool Contains(string input)
-        {
-            return _items.Contains(input);
-        }
+        public static bool Contains(string input) => _items.Contains(input);
     }
 }

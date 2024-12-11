@@ -18,27 +18,29 @@
                     continue;
                 }
                 bool isHeight = double.TryParse(Framework.textInput, out double height);
-                if (!isHeight) PrintHeightDialogue("Invalid.txt");
-                else switch (height)
-                {
-                    case < 0:
-                        PrintHeightDialogue("Negative.txt");
-                        break;
-                    case < 1.4:
-                        PrintHeightDialogue("Tiny.txt");
-                        break;
-                    case > 2.72:
-                        PrintHeightDialogue("Giant.txt");
-                        break;
-                    case > 2.05:
-                        PrintHeightDialogue("Tall.txt");
-                        break;
-                    default:
-                        SetHeight(height);
-                        break;
-                }
+                if (!isHeight)
+                    PrintHeightDialogue("Invalid.txt");
+                else HeightHandler(height);
             } while (Framework.height == null);
         }
+        private void HeightHandler(double height)
+        {
+            var actionMap = new (Predicate<double> Condition, Action<double> Action)[]
+            {
+                (height => height < 0, height => PrintHeightDialogue("Negative.txt")),
+                (height => height < 1.4, height => PrintHeightDialogue("Tiny.txt")),
+                (height => height > 2.72, height => PrintHeightDialogue("Giant.txt")),
+                (height => height > 2.05, height => PrintHeightDialogue("Tall.txt")),
+                (_ => true, height => SetHeight(height))
+            };
+            foreach (var (condition, action) in actionMap)
+                if (condition(height))
+                {
+                    action(height);
+                    return;
+                }
+        }
+
         private void SetHeight(double height)
         {
             Framework.height = Math.Round(height, 2);

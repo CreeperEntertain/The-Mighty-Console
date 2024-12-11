@@ -1,4 +1,5 @@
 ﻿using The_Mighty_Console.Resources;
+using The_Mighty_Console.Resources.Chapters;
 using The_Mighty_Console.Resources.Chapters.First;
 using The_Mighty_Console.Resources.Chapters.Intro;
 using The_Mighty_Console.Resources.Chapters.Second;
@@ -18,6 +19,7 @@ namespace The_Mighty_Console
             appControl.ExitKeybindInhibitor();
             appControl.ConsoleInitializer();
 
+            new Preface().Exec();
             new Intro().Exec();
             if (Framework.skippedIntro) appControl.ChapterFirstGameState();
             new First().Exec();

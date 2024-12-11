@@ -13,6 +13,8 @@ namespace The_Mighty_Console.Resources.Chapters.First.Sub.FormalitiesSub
             do
             {
                 Framework.InputHandler();
+                if (Framework.textInput.ToLower() == "rick")
+                    System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); // We're never gonna give up the player.
                 if (string.IsNullOrEmpty(Framework.textInput))
                     PrintNameDialogue("Empty.txt");
                 else if (AiNames.Contains(Framework.textInput.ToLower()))
