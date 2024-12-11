@@ -6,13 +6,11 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._5
     {
         private Framework Framework => Framework.Instance;
 
-        private Second second = new Second();
-
-        public void Exec()
+        public void Exec(ref bool param)
         {
-            if (second.whatIsTheFormulaForTheAntidoteAsked)
+            if (param)
                 AltResponse();
-            else DecideResponse();
+            else DecideResponse(ref param);
         }
 
         private void AltResponse()
@@ -25,10 +23,10 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._5
                 Framework.TrustManager(Framework.aiTrustLevel - 1);
             }
         }
-        private void DecideResponse()
+        private void DecideResponse(ref bool param)
         {
             if (Framework.aiTrustLevel >= 3)
-                Dialogue();
+                Dialogue(ref param);
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -38,10 +36,9 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._5
                 Framework.falseRequestAttempts++;
                 Console.ReadKey();
             }
-            second.whatIsTheFormulaForTheAntidoteAsked = true;
         }
 
-        private void Dialogue()
+        private void Dialogue(ref bool param)
         {
             PrintAccordingly("FormulaRequest.txt");
             Choice(new List<string> { "Is there no other way to get the formula?" });
@@ -53,9 +50,10 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._5
             ConsoleStorage.Clear();
             Framework.usbPerms = true;
             new Leave().Exec("leave", true);
+            param = true;
         }
 
         private int Choice(List<string> choices) => Framework.PlayerChoice(choices, true, 0, true, true, ConsoleColor.White, false);
-        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.5.{dotPath}");
+        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions._5.{dotPath}");
     }
 }

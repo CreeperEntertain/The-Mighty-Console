@@ -4,17 +4,15 @@
     {
         private Framework Framework => Framework.Instance;
 
-        private Second second = new Second();
-
-        public void Exec()
+        public void Exec(ref bool param)
         {
-            if (second.whoMadeYouAsked)
+            if (param)
                 AltResponse();
-            else RegularResponse();
+            else RegularResponse(ref param);
         }
 
         private void AltResponse() => PrintAccordingly("Alt.txt");
-        private void RegularResponse()
+        private void RegularResponse(ref bool param)
         {
             PrintAccordingly("TmcHistory.txt");
             Choice(new List<string> { "Sounds rough..." });
@@ -22,10 +20,10 @@
             Choice(new List<string> { "I would not, I cannot. Not now." });
             Framework.TrustManager(Framework.aiTrustLevel + 1);
             PrintAccordingly("ICannot.txt");
-            second.whoMadeYouAsked = true;
+            param = true;
         }
 
         private int Choice(List<string> choices) => Framework.PlayerChoice(choices, true, 0, true, true, ConsoleColor.White, false);
-        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.2.{dotPath}");
+        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions._2.{dotPath}");
     }
 }

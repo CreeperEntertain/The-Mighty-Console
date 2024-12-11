@@ -379,8 +379,8 @@ namespace The_Mighty_Console.Resources
         /// <summary>
         /// Displays a blinking "GAME OVER!" message and tasks the player to close the game.
         /// </summary>
-        public void GameOver()
-            => gameOver.Exec();
+        public void GameOver(ConsoleColor textColor = ConsoleColor.Red)
+            => gameOver.Exec(textColor);
         private GameOver gameOver = new GameOver();
         /// <summary>
         /// Flickers the background of the console. <br></br>

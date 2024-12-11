@@ -7,13 +7,13 @@ namespace The_Mighty_Console.Resources.FrameworkMethods.IO
     internal class GameOver
     {
         private Framework Framework => Framework.Instance;
-        public void Exec()
+        public void Exec(ConsoleColor textColor = ConsoleColor.Red)
         {
             string gameOver = "GAME OVER!";
             string textRemover = Framework.SetStringLength(string.Empty, gameOver.Length);
             int delay = 150;
             Console.CursorVisible = false;
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = textColor;
             Console.WriteLine();
             Console.Write(Framework.CenterString(gameOver));
             int windowTop = Console.WindowTop;

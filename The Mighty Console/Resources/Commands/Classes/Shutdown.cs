@@ -14,6 +14,7 @@
         {
             ConsoleStorage.Clear();
             ConsoleStorage.Instance.PauseRecording();
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Shutting down...");
             Thread.Sleep(3500);
             ConsoleStorage.Clear();

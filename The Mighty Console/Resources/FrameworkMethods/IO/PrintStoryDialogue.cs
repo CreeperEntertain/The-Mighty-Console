@@ -5,25 +5,31 @@ namespace The_Mighty_Console.Resources.FrameworkMethods.PrintMethods
     internal class PrintStoryDialogue
     {
         private Framework Framework => Framework.Instance;
+
         public void Exec(string filePathInDots)
         {
+            bool confirm = true;
+
             Assembly assembly = Assembly.GetExecutingAssembly();
             string resourceName = "The_Mighty_Console." + filePathInDots;
             using (Stream stream = assembly.GetManifestResourceStream(resourceName) ?? Stream.Null)
             using (StreamReader reader = new StreamReader(stream))
             {
                 string? line;
-                bool confirm = true;
                 while ((line = reader.ReadLine()) != null)
                 {
                     line = line.TrimEnd();
-                    FormattingHandler(line, confirm);
+                    FormattingHandler(line, ref confirm);
+                                             // ^actual variable referencing in the incredibly unlikely case this instance is ever used twice.
+                                             // We writing safe code in this house! 😎
+                                             // Scuffed...
+                                             // But safe.
                 }
             }
             Console.ResetColor();
         }
 
-        private void FormattingHandler(string line, bool confirm)
+        private void FormattingHandler(string line, ref bool confirm)
         {
             if (line == "")
                 Console.WriteLine();
@@ -43,7 +49,7 @@ namespace The_Mighty_Console.Resources.FrameworkMethods.PrintMethods
                 else
                 {
                     Framework.DelayedPrint(line);
-                    Console.ReadKey();
+                    if (confirm) Console.ReadKey();
                 }
             }
             else

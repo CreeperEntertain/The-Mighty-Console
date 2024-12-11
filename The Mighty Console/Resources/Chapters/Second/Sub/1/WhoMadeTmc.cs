@@ -4,17 +4,15 @@
     {
         private Framework Framework => Framework.Instance;
 
-        private Second second = new Second();
-
-        public void Exec()
+        public void Exec(ref bool param)
         {
-            if (second.whoMadeYouAsked)
+            if (param)
                 AltResponse();
-            else RegularResponse();
+            else RegularResponse(ref param);
         }
 
         private void AltResponse() => PrintAccordingly("Alt.txt");
-        private void RegularResponse()
+        private void RegularResponse(ref bool param)
         {
             PrintAccordingly("WhoMadeTmc.txt");
             Choice(new List<string> { "I told you my name." });
@@ -25,7 +23,7 @@
                 "I cannot tell you.",
                 "I won't tell you." });
             ChoiceHandler(chosen);
-            second.whoMadeYouAsked = true;
+            param = true;
         }
 
         private void ChoiceHandler(int chosen)
@@ -47,6 +45,6 @@
         }
 
         private int Choice(List<string> choices) => Framework.PlayerChoice(choices, true, 0, true, true, ConsoleColor.White, false);
-        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.1.{dotPath}");
+        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions._1.{dotPath}");
     }
 }

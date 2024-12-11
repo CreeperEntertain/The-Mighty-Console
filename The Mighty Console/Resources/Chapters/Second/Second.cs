@@ -135,7 +135,7 @@ namespace The_Mighty_Console.Resources.Chapters.Second
         private void AllDialogueUsed()
         {
             PrintSecondDialogue("OptionsExhausted.txt");
-            Environment.Exit(0);
+            Framework.GameOver();
         }
 
         private void ChoiceAdder(List<string> choices)
@@ -164,12 +164,12 @@ namespace The_Mighty_Console.Resources.Chapters.Second
             bool continueLoop = true;
             new Action[]
             {
-                () => new WhoMadeTmc().Exec(),
-                () => new TmcHistory().Exec(),
-                () => new OpinionAboutHumanity().Exec(),
-                () => new MentionRash().Exec(),
-                () => new FormulaRequest().Exec(),
-                () => new UsbExplanation().Exec(),
+                () => new WhoMadeTmc().Exec(ref whoMadeYouAsked),
+                () => new TmcHistory().Exec(ref whatDidYouWorkOnAsked),
+                () => new OpinionAboutHumanity().Exec(ref whatDoYouThinkAboutHumanityAsked),
+                () => new MentionRash().Exec(ref iHaveSomethingINeedToTellYouAboutMeSaid),
+                () => new FormulaRequest().Exec(ref whatIsTheFormulaForTheAntidoteAsked),
+                () => new UsbExplanation().Exec(ref iFoundTheFlashDriveHowDoIUseItAsked),
                 () => new ComputeFormula().Exec(out continueLoop)
             }[chosen]();
             return continueLoop;

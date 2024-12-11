@@ -6,13 +6,11 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._6
     {
         private Framework Framework => Framework.Instance;
 
-        private Second second = new Second();
-
-        public void Exec()
+        public void Exec(ref bool param)
         {
-            if (second.iFoundTheFlashDriveHowDoIUseItAsked)
+            if (param)
                 AltResponse();
-            else RegularResponse();
+            else RegularResponse(ref param);
         }
 
         private void AltResponse()
@@ -25,15 +23,15 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._6
                 Framework.TrustManager(Framework.aiTrustLevel - 1);
             }
         }
-        private void RegularResponse() // TODO: Needs to set Framework.formulaPerms to true somehow.
+        private void RegularResponse(ref bool param)
         {
             PrintAccordingly("UsbExplanation.txt");
             ConsoleStorage.Clear();
             Framework.formulaPerms = true;
             new Leave().Exec("leave", true);
-            second.iFoundTheFlashDriveHowDoIUseItAsked = true;
+            param = true;
         }
 
-        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.6.{dotPath}");
+        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions._6.{dotPath}");
     }
 }

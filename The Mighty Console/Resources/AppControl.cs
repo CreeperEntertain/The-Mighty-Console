@@ -1,4 +1,5 @@
-﻿namespace The_Mighty_Console.Resources
+﻿#pragma warning disable CA1416
+namespace The_Mighty_Console.Resources
 {
     internal class AppControl
     {
@@ -20,18 +21,11 @@
                 else ConsoleStorage.Clear();
             }
         }
-        public void BufferSetter()
-        {
-            #pragma warning disable CA1416
-            Console.BufferHeight = short.MaxValue - 1;
-            #pragma warning restore CA1416
-        }
+        public void BufferSetter() => Console.BufferHeight = short.MaxValue - 1;
         public void ExitKeybindInhibitor()
         {
-            #pragma warning disable CS8622
             Console.CancelKeyPress += new ConsoleCancelEventHandler(OnCancelKeyPress);
-            #pragma warning restore CS8622
-            void OnCancelKeyPress(object sender, ConsoleCancelEventArgs e) => e.Cancel = true;
+            void OnCancelKeyPress(object? sender, ConsoleCancelEventArgs e) => e.Cancel = true;
         }
         public void ConsoleInitializer()
         {

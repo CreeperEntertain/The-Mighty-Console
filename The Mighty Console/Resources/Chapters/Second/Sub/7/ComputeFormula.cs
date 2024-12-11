@@ -37,7 +37,7 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._7
         private void OptionNo()
         {
             PrintAccordingly("No.txt");
-            Environment.Exit(0);
+            Framework.GameOver();
         }
 
         private void PlayerWarning()
@@ -58,6 +58,6 @@ namespace The_Mighty_Console.Resources.Chapters.Second.Sub._7
         }
 
         private int Choice(List<string> choices) => Framework.PlayerChoice(choices, true, 0, true, true, ConsoleColor.White, false);
-        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions.7.{dotPath}");
+        private void PrintAccordingly(string dotPath) => Framework.PrintStoryDialogue($"Resources.Tables.Dialogue.Second.Questions._7.{dotPath}");
     }
 }
